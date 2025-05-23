@@ -1,0 +1,5 @@
+<library path="dummy2_hardware">
+  <class name="dummy2_hardware/Dummy2Hardware" type="Dummy2Hardware" base_class_type="hardware_interface::SystemInterface">
+    <description>dummy2 hardware interface</description>
+  </class>
+</library>

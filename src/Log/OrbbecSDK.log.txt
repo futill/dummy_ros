@@ -1,0 +1,1129 @@
+[05/21 20:50:59.363792][debug][7805][Context.cpp:30] Context creating, work_dir=/home/futill/dummy2_hand_eye_calibration_ws/src
+[05/21 20:50:59.363893][debug][7805][Context.cpp:49] Config file version=1.1
+[05/21 20:50:59.363975][debug][7805][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 20:50:59.363990][info][7805][Context.cpp:68] Context created with config: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 20:50:59.364014][info][7805][Context.cpp:73] Work directory=/home/futill/dummy2_hand_eye_calibration_ws/src, SDK version=v1.10.22-20250410-46139de
+[05/21 20:50:59.364033][debug][7805][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 20:50:59.364036][info][7805][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[05/21 20:50:59.365203][debug][7805][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 20:50:59.592875][debug][7805][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[05/21 20:50:59.593030][debug][7805][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[05/21 20:50:59.593052][debug][7805][UsbDeviceEnumerator.cpp:166]  - 4-1-2.0 | Orbbec Astra+ Depth Camera
+[05/21 20:50:59.593056][debug][7805][UsbDeviceEnumerator.cpp:166]  - 4-1-2.2 | Orbbec Astra+ IR Camera
+[05/21 20:50:59.593059][debug][7805][UsbDeviceEnumerator.cpp:166]  - 4-1-2.4 | Orbbec(R) Astra(TM) Data Channel
+[05/21 20:50:59.593062][debug][7805][UsbDeviceEnumerator.cpp:166]  - 3-2-5.0 | Orbbec Astra+ RGB Camera
+[05/21 20:50:59.593200][info][7805][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[05/21 20:50:59.593245][debug][7805][UsbDeviceEnumerator.cpp:71] Found 1 device(s):
+[05/21 20:50:59.593251][debug][7805][UsbDeviceEnumerator.cpp:74]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP, connection: USB3.0
+[05/21 20:50:59.593258][info][7805][DeviceManager.cpp:15] Current found device(s): (1)
+[05/21 20:50:59.593265][info][7805][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP, Connection: USB3.0
+[05/21 20:50:59.593269][debug][7805][DeviceManager.cpp:52] DeviceManager construct done!
+[05/21 20:50:59.597986][info][7805][DeviceManager.cpp:304] Enable net device enumeration: false
+[05/21 20:50:59.699589][debug][7968][DeviceManager.cpp:109] DeviceManager  createDevice...
+[05/21 20:50:59.699759][debug][7968][UsbDeviceEnumerator.cpp:291] UsbDeviceEnumerator createDevice...
+[05/21 20:50:59.699803][debug][7968][AstraUvcDevice.cpp:17] AstraUvcDevice init ...
+[05/21 20:50:59.699876][debug][7968][AstraUvcDevice.cpp:151] init sensor map start!
+[05/21 20:50:59.699885][info][7968][AstraUvcDevice.cpp:168] init sensor map done!
+[05/21 20:50:59.699888][debug][7968][AstraUvcDevice.cpp:94] createCommand start!
+[05/21 20:50:59.699900][debug][7968][LinuxPal.cpp:292] Uvc backend have been set to LibUVC(1)
+[05/21 20:50:59.701802][debug][7968][ObLibuvcDevicePort.cpp:58] uvc_open success
+[05/21 20:50:59.701908][debug][7968][LinuxPal.cpp:127] UVC device have been create with LibUVC backend! dev: 4-1-2, inf: 4-1-2.0
+[05/21 20:50:59.702117][debug][7968][VendorCommand.cpp:205] VendorCommand constructor 74bd2000c660
+[05/21 20:50:59.727152][debug][7968][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[05/21 20:50:59.727501][debug][7968][AstraUvcDevice.cpp:147] Command has been created!
+[05/21 20:50:59.757741][debug][7968][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[05/21 20:50:59.757802][info][7968][AbstractDevice.cpp:125] 	- Firmware version: 1.0.22
+[05/21 20:50:59.757943][debug][7968][AstraUvcDevice.cpp:288] Init depth process param start!
+[05/21 20:50:59.822023][debug][7968][HostProtocol.cpp:466] get property value success! propertyId=63, cur={intValue: 1, floatValue: 1.4013e-45}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:50:59.825711][debug][7968][HostProtocol.cpp:433] Set property value, propertyId=63, value={intValue: 0, floatValue: 0}
+[05/21 20:50:59.893159][debug][7968][HostProtocol.cpp:433] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:50:59.960061][debug][7968][AstraUvcDevice.cpp:300] Astra+ long-distance version!
+[05/21 20:50:59.960409][debug][7968][AstraUvcDevice.cpp:321] disparityParam: baseline: 7.509368, zpd: 129.93736267089844, zpps: 0.1126236841082573, bitSize: 12, unit: 10, packMode: 1
+[05/21 20:50:59.960424][debug][7968][AstraUvcDevice.cpp:323] softFilterParam: maxSpeckleSize: 960, maxDiff: 16, filterType: 0
+[05/21 20:50:59.960437][info][7968][AstraUvcDevice.cpp:327] Init depth process param done!
+[05/21 20:50:59.960445][info][7968][AstraUvcDevice.cpp:23] Astra device created! PID: 0x0636, SN: BY1N73300CP
+[05/21 20:50:59.960452][debug][7968][UsbDeviceEnumerator.cpp:359] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP
+[05/21 20:50:59.960460][info][7968][DeviceManager.cpp:150] Device created successfully! Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP
+[05/21 20:50:59.960743][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:50:59.960794][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.003242][debug][7968][LinuxPal.cpp:292] Uvc backend have been set to LibUVC(1)
+[05/21 20:51:00.007105][debug][7968][ObLibuvcDevicePort.cpp:58] uvc_open success
+[05/21 20:51:00.007147][debug][7968][LinuxPal.cpp:127] UVC device have been create with LibUVC backend! dev: 4-1-2, inf: 4-1-2.2
+[05/21 20:51:00.007160][debug][7968][FrameProcessor.cpp:90] FrameProcessor init with 2 blocks! @128355634567408
+[05/21 20:51:00.007179][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.007183][debug][7968][FrameProcessor.cpp:98]  - block: FrameUnpacker, status: enable
+[05/21 20:51:00.007197][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.007201][debug][7968][FrameProcessor.cpp:98]  - block: FrameMirror, status: disable
+[05/21 20:51:00.007211][debug][7968][VideoSensor.cpp:252] VideoSensor construct!
+[05/21 20:51:00.007225][debug][7968][VideoSensor.cpp:278] VideoSensor created, @OB_SENSOR_IR
+[05/21 20:51:00.007228][info][7968][AstraUvcDevice.cpp:282] Ir sensor has been created!
+[05/21 20:51:00.008240][info][7968][VideoSensor.cpp:384] Query stream profile! size= 32, SensorType=OB_SENSOR_IR
+[05/21 20:51:00.008285][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.008291][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 30}
+[05/21 20:51:00.008295][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 15}
+[05/21 20:51:00.008298][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 10}
+[05/21 20:51:00.008301][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 7}
+[05/21 20:51:00.008304][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.008307][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.008309][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.008312][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.008315][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.008318][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.008321][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.008361][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 30}
+[05/21 20:51:00.008380][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 15}
+[05/21 20:51:00.008383][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 10}
+[05/21 20:51:00.008386][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 7}
+[05/21 20:51:00.008389][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 160, height: 120, fps: 30}
+[05/21 20:51:00.008392][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 160, height: 120, fps: 15}
+[05/21 20:51:00.008425][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 160, height: 120, fps: 10}
+[05/21 20:51:00.008430][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 160, height: 120, fps: 7}
+[05/21 20:51:00.008433][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.008436][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.008439][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.008442][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.008445][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.008448][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.008451][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.008454][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.008457][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 1024, fps: 30}
+[05/21 20:51:00.008460][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 1024, fps: 15}
+[05/21 20:51:00.008463][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 1024, fps: 10}
+[05/21 20:51:00.008466][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_IR, format: OB_FORMAT_Y10, width: 1280, height: 1024, fps: 7}
+[05/21 20:51:00.008564][debug][7968][LinuxPal.cpp:292] Uvc backend have been set to LibUVC(1)
+[05/21 20:51:00.019295][debug][7968][ObLibuvcDevicePort.cpp:58] uvc_open success
+[05/21 20:51:00.019354][debug][7968][LinuxPal.cpp:127] UVC device have been create with LibUVC backend! dev: 3-2-5, inf: 3-2-5.0
+[05/21 20:51:00.019365][debug][7968][FrameProcessor.cpp:90] FrameProcessor init with 1 blocks! @128355634688288
+[05/21 20:51:00.019382][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019387][debug][7968][FrameProcessor.cpp:98]  - block: FormatConverter, status: disable
+[05/21 20:51:00.019425][debug][7968][VideoSensor.cpp:252] VideoSensor construct!
+[05/21 20:51:00.019439][debug][7968][VideoSensor.cpp:278] VideoSensor created, @OB_SENSOR_COLOR
+[05/21 20:51:00.019442][info][7968][AstraUvcDevice.cpp:250] Color sensor has been created!
+[05/21 20:51:00.019527][info][7968][VideoSensor.cpp:384] Query stream profile! size= 74, SensorType=OB_SENSOR_COLOR
+[05/21 20:51:00.019546][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.019550][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.019553][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.019568][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.019572][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.019575][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.019591][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.019595][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.019598][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 30}
+[05/21 20:51:00.019601][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 15}
+[05/21 20:51:00.019604][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 10}
+[05/21 20:51:00.019607][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 800, height: 600, fps: 7}
+[05/21 20:51:00.019610][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 30}
+[05/21 20:51:00.019613][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 15}
+[05/21 20:51:00.019616][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 10}
+[05/21 20:51:00.019619][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1280, height: 720, fps: 7}
+[05/21 20:51:00.019622][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 30}
+[05/21 20:51:00.019625][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 15}
+[05/21 20:51:00.019628][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 10}
+[05/21 20:51:00.019631][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 1920, height: 1080, fps: 7}
+[05/21 20:51:00.019634][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_MJPG, width: 2048, height: 1536, fps: 15}
+[05/21 20:51:00.019637][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 25}
+[05/21 20:51:00.019640][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.019643][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.019646][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.019649][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 15}
+[05/21 20:51:00.019652][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 10}
+[05/21 20:51:00.019655][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 800, height: 600, fps: 7}
+[05/21 20:51:00.019658][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 10}
+[05/21 20:51:00.019661][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1280, height: 720, fps: 7}
+[05/21 20:51:00.019664][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 1920, height: 1080, fps: 5}
+[05/21 20:51:00.019667][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_YUYV, width: 2048, height: 1536, fps: 3}
+[05/21 20:51:00.019676][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.019679][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.019682][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.019685][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.019688][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.019691][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.019694][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.019697][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.019700][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 30}
+[05/21 20:51:00.019702][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 15}
+[05/21 20:51:00.019705][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 10}
+[05/21 20:51:00.019708][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 800, height: 600, fps: 7}
+[05/21 20:51:00.019711][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 30}
+[05/21 20:51:00.019714][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 15}
+[05/21 20:51:00.019717][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 10}
+[05/21 20:51:00.019720][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1280, height: 720, fps: 7}
+[05/21 20:51:00.019723][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}
+[05/21 20:51:00.019726][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 15}
+[05/21 20:51:00.019729][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 10}
+[05/21 20:51:00.019732][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 7}
+[05/21 20:51:00.019735][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 2048, height: 1536, fps: 15}
+[05/21 20:51:00.019738][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.019745][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.019748][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.019751][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.019754][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.019757][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.019760][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.019767][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.019770][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 30}
+[05/21 20:51:00.019773][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 15}
+[05/21 20:51:00.019776][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 10}
+[05/21 20:51:00.019779][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 800, height: 600, fps: 7}
+[05/21 20:51:00.019782][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 30}
+[05/21 20:51:00.019785][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 15}
+[05/21 20:51:00.019788][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 10}
+[05/21 20:51:00.019815][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1280, height: 720, fps: 7}
+[05/21 20:51:00.019820][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 30}
+[05/21 20:51:00.019823][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 15}
+[05/21 20:51:00.019826][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 10}
+[05/21 20:51:00.019829][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 1920, height: 1080, fps: 7}
+[05/21 20:51:00.019832][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_COLOR, format: OB_FORMAT_BGRA, width: 2048, height: 1536, fps: 15}
+[05/21 20:51:00.019865][debug][7968][FrameProcessor.cpp:90] FrameProcessor init with 5 blocks! @128355634688464
+[05/21 20:51:00.019891][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019896][debug][7968][FrameProcessor.cpp:98]  - block: FrameUnpacker, status: enable
+[05/21 20:51:00.019900][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019904][debug][7968][FrameProcessor.cpp:98]  - block: FrameSoftFilter, status: enable
+[05/21 20:51:00.019908][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019912][debug][7968][FrameProcessor.cpp:98]  - block: Disparity2DepthConverter, status: enable
+[05/21 20:51:00.019917][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019920][debug][7968][FrameProcessor.cpp:98]  - block: D2CFilter, status: disable
+[05/21 20:51:00.019924][debug][7968][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[05/21 20:51:00.019927][debug][7968][FrameProcessor.cpp:98]  - block: PostProcessFilter, status: disable
+[05/21 20:51:00.020034][debug][7968][VideoSensor.cpp:252] VideoSensor construct!
+[05/21 20:51:00.020039][debug][7968][VideoSensor.cpp:278] VideoSensor created, @OB_SENSOR_DEPTH
+[05/21 20:51:00.020042][info][7968][AstraUvcDevice.cpp:220] Depth sensor has been created!
+[05/21 20:51:00.020053][debug][7968][VideoSensor.cpp:119] device has original Y16 format, no need to add virtual format!
+[05/21 20:51:00.020106][info][7968][VideoSensor.cpp:384] Query stream profile! size= 48, SensorType=OB_SENSOR_DEPTH
+[05/21 20:51:00.020111][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.020114][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 30}
+[05/21 20:51:00.020117][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 15}
+[05/21 20:51:00.020128][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 10}
+[05/21 20:51:00.020131][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 160, height: 120, fps: 7}
+[05/21 20:51:00.020134][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.020137][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.020139][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.020142][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.020145][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.020148][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.020151][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.020154][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 30}
+[05/21 20:51:00.020157][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 15}
+[05/21 20:51:00.020160][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 10}
+[05/21 20:51:00.020163][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1280, height: 1024, fps: 7}
+[05/21 20:51:00.020166][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 160, height: 120, fps: 30}
+[05/21 20:51:00.020169][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 160, height: 120, fps: 15}
+[05/21 20:51:00.020172][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 160, height: 120, fps: 10}
+[05/21 20:51:00.020175][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 160, height: 120, fps: 7}
+[05/21 20:51:00.020178][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.020181][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.020183][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.020186][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.020189][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.020192][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.020195][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.020198][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.020201][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 1024, fps: 30}
+[05/21 20:51:00.020204][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 1024, fps: 15}
+[05/21 20:51:00.020207][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 1024, fps: 10}
+[05/21 20:51:00.020210][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 1280, height: 1024, fps: 7}
+[05/21 20:51:00.020217][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 160, height: 120, fps: 30}
+[05/21 20:51:00.020220][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 160, height: 120, fps: 15}
+[05/21 20:51:00.020223][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 160, height: 120, fps: 10}
+[05/21 20:51:00.020226][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 160, height: 120, fps: 7}
+[05/21 20:51:00.020229][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 240, fps: 30}
+[05/21 20:51:00.020232][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 240, fps: 15}
+[05/21 20:51:00.020235][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 240, fps: 10}
+[05/21 20:51:00.020238][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 320, height: 240, fps: 7}
+[05/21 20:51:00.020241][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 480, fps: 30}
+[05/21 20:51:00.020244][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 480, fps: 15}
+[05/21 20:51:00.020247][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 480, fps: 10}
+[05/21 20:51:00.020249][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 640, height: 480, fps: 7}
+[05/21 20:51:00.020252][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 1024, fps: 30}
+[05/21 20:51:00.020255][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 1024, fps: 15}
+[05/21 20:51:00.020258][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 1024, fps: 10}
+[05/21 20:51:00.020261][info][7968][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y12, width: 1280, height: 1024, fps: 7}
+[05/21 20:51:00.020311][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 24, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.020397][debug][7968][HostProtocol.cpp:433] Set property value, propertyId=2, value={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.045169][error][7968][HostProtocol.cpp:436] Set property value failed! propertyId:2, rc:{statusCode: 10, respErrorCode: 32768, msg: }
+[05/21 20:51:00.045225][warning][7968][HostProtocol.cpp:89] Request failed, device response with warning, errorCode:32768, msg:
+[05/21 20:51:00.045246][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 2, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.045326][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 24, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.045348][debug][7968][ObLibuvcDevicePort.cpp:334] ObLibuvcDevicePort::uvcCtrlValueTranslate propertyId=1, action=2003, value=1
+[05/21 20:51:00.045956][debug][7968][ObLibuvcDevicePort.cpp:207] ObLibuvcDevicePort::setPu() propertyId = 2003 value = 
+[05/21 20:51:00.045984][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 2003, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.046037][debug][7968][ObLibuvcDevicePort.cpp:334] ObLibuvcDevicePort::uvcCtrlValueTranslate propertyId=1, action=2000, value=1
+[05/21 20:51:00.046467][debug][7968][ObLibuvcDevicePort.cpp:366] UVC_SET_CUR: getAERes:9.
+[05/21 20:51:00.046499][debug][7968][ObLibuvcDevicePort.cpp:370] UVC_AE_MODE_D0_MANUAL:translated_value:8,value:1.
+[05/21 20:51:00.047020][debug][7968][ObLibuvcDevicePort.cpp:207] ObLibuvcDevicePort::setPu() propertyId = 2000 value = 
+[05/21 20:51:00.047053][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 2000, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.047103][debug][7968][PropertyAccessor.cpp:28] get property value success! propertyId: 40, value: {intValue: 16, floatValue: 2.24208e-44}
+[05/21 20:51:00.047142][debug][7968][PropertyAccessor.cpp:28] get property value success! propertyId: 41, value: {intValue: 960, floatValue: 1.34525e-42}
+[05/21 20:51:00.113481][debug][7968][Pipeline.cpp:29] Pipeline init ...
+[05/21 20:51:00.113532][debug][7968][Pipeline.cpp:168] loadFrameQueueSizeConfig() config queue size: 10
+[05/21 20:51:00.113541][warning][7968][ObException.cpp:5] Current device does not support frame sync!
+[05/21 20:51:00.113581][warning][7968][Pipeline.cpp:45] Execute failure! A libobsensor_exception has occurred!
+	 - where:45#Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:N11libobsensor31unsupported_operation_exceptionE
+[05/21 20:51:00.113588][info][7968][Pipeline.cpp:47] Pipeline created with device: {name: Astra+, sn: BY1N73300CP}, @0x74BD202BE370
+[05/21 20:51:00.113687][debug][7968][Pipeline.cpp:227] Pipeline start() start!
+[05/21 20:51:00.113693][info][7968][Pipeline.cpp:188] Check and set config start!
+[05/21 20:51:00.113707][info][7968][Pipeline.cpp:223] Check and set config done!
+[05/21 20:51:00.139774][debug][7968][HostProtocol.cpp:466] get property value success! propertyId=14, cur={intValue: 0, floatValue: 0}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.139825][debug][7968][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[05/21 20:51:00.139839][debug][7968][HostProtocol.cpp:433] Set property value, propertyId=63, value={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.169789][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.200784][debug][7968][HostProtocol.cpp:466] get property value success! propertyId=14, cur={intValue: 0, floatValue: 0}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.200839][debug][7968][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[05/21 20:51:00.200858][debug][7968][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[05/21 20:51:00.200862][info][7968][Pipeline.cpp:288] Try to start streams!
+[05/21 20:51:00.200870][debug][7968][VideoSensor.cpp:566] VideoSensor::start, @OB_SENSOR_COLOR
+[05/21 20:51:00.200877][debug][7968][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[05/21 20:51:00.200884][debug][7968][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10ColorFrameE, obj addr:0x74bd202c1110, frame obj total size:1.978MB
+[05/21 20:51:00.200888][debug][7968][FrameMemoryPool.cpp:76] ColorFrame bufferManager created!
+[05/21 20:51:00.200909][debug][7968][FrameProcessor.cpp:144] Frame processor active blocks chain update: input ->FormatConverter -> output
+[05/21 20:51:00.200913][debug][7968][FrameProcessor.cpp:155] FrameProcessor started, 1 blocks contained!
+[05/21 20:51:00.200921][info][7968][VideoSensor.cpp:646] start OB_SENSOR_COLOR stream with profile: {type: OB_STREAM_COLOR, format: OB_FORMAT_RGB888, width: 1920, height: 1080, fps: 30}, Backend Format: OB_FORMAT_MJPG
+[05/21 20:51:00.200924][debug][7968][ObLibuvcDevicePort.cpp:75] ObLibuvcDevicePort::startStream()...
+[05/21 20:51:00.200931][debug][7968][ObLibuvcDevicePort.cpp:90] playProfile: infIndex=0, selected_format.width=1920, height=1080, format=OB_FORMAT_MJPG
+[05/21 20:51:00.285064][debug][7968][ObLibuvcDevicePort.cpp:143] ObLibuvcDevicePort::startStream() done
+[05/21 20:51:00.285143][debug][7968][VideoSensor.cpp:672] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_COLOR
+[05/21 20:51:00.285151][debug][7968][VideoSensor.cpp:674] Stream starting! @OB_SENSOR_COLOR
+[05/21 20:51:00.285169][debug][7968][Pipeline.cpp:299] Sensor stream started, sensorType=OB_SENSOR_COLOR
+[05/21 20:51:00.285175][debug][7968][VideoSensor.cpp:566] VideoSensor::start, @OB_SENSOR_DEPTH
+[05/21 20:51:00.285187][debug][7968][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x74bd202bec40, frame obj total size:0.403MB
+[05/21 20:51:00.285190][debug][7968][FrameMemoryPool.cpp:60] DepthFrame bufferManager created!
+[05/21 20:51:00.285209][debug][7968][FrameProcessor.cpp:144] Frame processor active blocks chain update: input ->FrameUnpacker -> FrameSoftFilter -> Disparity2DepthConverter -> output
+[05/21 20:51:00.285213][debug][7968][FrameProcessor.cpp:155] FrameProcessor started, 5 blocks contained!
+[05/21 20:51:00.285220][info][7968][VideoSensor.cpp:646] start OB_SENSOR_DEPTH stream with profile: {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y11, width: 640, height: 480, fps: 30}, Backend Format: OB_FORMAT_Y11
+[05/21 20:51:00.285223][debug][7968][ObLibuvcDevicePort.cpp:75] ObLibuvcDevicePort::startStream()...
+[05/21 20:51:00.285251][debug][7968][ObLibuvcDevicePort.cpp:90] playProfile: infIndex=0, selected_format.width=640, height=480, format=OB_FORMAT_Y11
+[05/21 20:51:00.325188][debug][7968][ObLibuvcDevicePort.cpp:143] ObLibuvcDevicePort::startStream() done
+[05/21 20:51:00.325277][debug][7968][VideoSensor.cpp:672] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_DEPTH
+[05/21 20:51:00.325283][debug][7968][VideoSensor.cpp:674] Stream starting! @OB_SENSOR_DEPTH
+[05/21 20:51:00.325289][debug][7968][Pipeline.cpp:299] Sensor stream started, sensorType=OB_SENSOR_DEPTH
+[05/21 20:51:00.325293][info][7968][Pipeline.cpp:301] Start streams done!
+[05/21 20:51:00.325296][info][7968][Pipeline.cpp:277] Pipeline start done!
+[05/21 20:51:00.325545][debug][7968][HostProtocol.cpp:433] Set property value, propertyId=2, value={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.350324][error][7968][HostProtocol.cpp:436] Set property value failed! propertyId:2, rc:{statusCode: 10, respErrorCode: 32768, msg: }
+[05/21 20:51:00.350356][warning][7968][HostProtocol.cpp:89] Request failed, device response with warning, errorCode:32768, msg:
+[05/21 20:51:00.350377][debug][7968][PropertyAccessor.cpp:17] set property value success! propertyId: 2, value: {intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:51:00.393605][debug][8014][FrameBufferManager.cpp:35] New frame buffer allocated=0.403MB, total usage: allocated=0.403MB, max limit=2048.000MB
+[05/21 20:51:00.393676][warning][8014][VideoSensor.cpp:453] This frame will be dropped because the data size does not match the expectation! size=16236, expected=422400 @OB_SENSOR_DEPTH
+[05/21 20:51:00.457730][debug][8014][VideoSensor.cpp:460] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_DEPTH
+[05/21 20:51:00.458366][debug][8014][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor13FrameUnpackerE process thread started!
+[05/21 20:51:00.458471][debug][8018][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x74bd10000b70, frame obj total size:0.586MB
+[05/21 20:51:00.458487][debug][8018][FrameMemoryPool.cpp:60] DepthFrame bufferManager created!
+[05/21 20:51:00.458503][debug][8018][FrameBufferManager.cpp:35] New frame buffer allocated=0.586MB, total usage: allocated=0.990MB, max limit=2048.000MB
+[05/21 20:51:00.459115][debug][8018][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor15FrameSoftFilterE process thread started!
+[05/21 20:51:00.461158][debug][8019][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor24Disparity2DepthConverterE process thread started!
+[05/21 20:51:00.461447][debug][8020][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor8FrameSetE, obj addr:0x74bd08000b70, frame obj total size:0.000MB
+[05/21 20:51:00.461473][debug][8020][FrameMemoryPool.cpp:92] Frameset bufferManager created!
+[05/21 20:51:00.461502][debug][8020][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH
+[05/21 20:51:00.490673][debug][8018][FrameBufferManager.cpp:35] New frame buffer allocated=0.586MB, total usage: allocated=1.576MB, max limit=2048.000MB
+[05/21 20:51:00.523855][debug][8018][FrameBufferManager.cpp:35] New frame buffer allocated=0.586MB, total usage: allocated=2.162MB, max limit=2048.000MB
+[05/21 20:51:00.525211][debug][8020][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=2.163MB, max limit=2048.000MB
+[05/21 20:51:00.557249][debug][8018][FrameBufferManager.cpp:35] New frame buffer allocated=0.586MB, total usage: allocated=2.749MB, max limit=2048.000MB
+[05/21 20:51:00.632676][debug][8013][FrameBufferManager.cpp:35] New frame buffer allocated=1.978MB, total usage: allocated=4.727MB, max limit=2048.000MB
+[05/21 20:51:00.632872][debug][8013][VideoSensor.cpp:460] Stream state changed to STREAM_STATE_STREAMING. @OB_SENSOR_COLOR
+[05/21 20:51:00.633114][debug][8013][FrameProcessingBlock.cpp:59] FrameProcessingBlock@N11libobsensor15FormatConverterE process thread started!
+[05/21 20:51:00.633166][debug][8022][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10ColorFrameE, obj addr:0x74bd00000b70, frame obj total size:5.933MB
+[05/21 20:51:00.633179][debug][8022][FrameMemoryPool.cpp:76] ColorFrame bufferManager created!
+[05/21 20:51:00.633226][debug][8022][FrameBufferManager.cpp:35] New frame buffer allocated=5.933MB, total usage: allocated=10.660MB, max limit=2048.000MB
+[05/21 20:51:00.647993][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR
+[05/21 20:51:01.138360][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:02.138660][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:03.139957][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:03.396138][warning][8016][VideoSensor.cpp:453] This frame will be dropped because the data size does not match the expectation! size=16165, expected=422400 @OB_SENSOR_DEPTH [**9 logs in 3002ms, last: 20:51:00.428023**]
+[05/21 20:51:03.493445][debug][8021][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**90 logs in 3031ms, last: 20:51:03.462047**]
+[05/21 20:51:03.671668][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**42 logs in 3023ms**]
+[05/21 20:51:04.138373][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:05.138597][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:05.424642][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=31.802822fps
+[05/21 20:51:05.526362][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.193962fps
+[05/21 20:51:05.680866][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=14.064977fps
+[05/21 20:51:06.138339][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:07.139392][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:08.138381][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:09.138539][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:09.284114][debug][8022][FrameBufferManager.cpp:35] New frame buffer allocated=5.933MB, total usage: allocated=16.593MB, max limit=2048.000MB
+[05/21 20:51:09.296519][debug][8020][FrameBufferManager.cpp:35] New frame buffer allocated=0.000MB, total usage: allocated=16.594MB, max limit=2048.000MB
+[05/21 20:51:09.494461][debug][8046][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**181 logs in 6001ms, last: 20:51:09.493838**]
+[05/21 20:51:09.731307][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**84 logs in 6059ms**]
+[05/21 20:51:10.138445][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:10.425365][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:51:10.560021][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:51:10.729032][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:51:11.138476][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:12.138453][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:13.139265][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:14.138782][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:15.138484][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:15.426733][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:51:15.570867][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.139719fps
+[05/21 20:51:15.777014][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:51:16.138560][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:17.138332][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:18.138780][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:19.138541][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:20.138456][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:20.460147][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:20.595323][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.850746fps
+[05/21 20:51:20.823923][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:51:21.138648][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:21.528034][debug][8143][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**360 logs in 12033ms, last: 20:51:21.494974**]
+[05/21 20:51:21.769609][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**167 logs in 12038ms**]
+[05/21 20:51:22.138804][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:23.139492][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:24.138439][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:25.139911][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:25.494327][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:25.596459][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.193962fps
+[05/21 20:51:25.872096][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:51:26.138351][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:27.138729][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:28.138875][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:29.138532][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:30.139526][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:30.495058][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:51:30.630542][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.797379fps
+[05/21 20:51:30.920376][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:31.138463][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:32.138478][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:33.139132][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:34.138764][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:35.138740][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:35.529030][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:35.664124][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:51:35.968286][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:36.139168][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:37.138597][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:38.141402][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:39.138482][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:40.138417][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:40.563276][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:40.666329][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.187925fps
+[05/21 20:51:41.016406][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:41.138544][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:42.138529][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:43.138690][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:44.138568][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:45.139657][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:45.529874][debug][8145][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**720 logs in 24001ms, last: 20:51:45.498435**]
+[05/21 20:51:45.597328][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:45.700045][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.797379fps
+[05/21 20:51:45.790535][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**333 logs in 24020ms**]
+[05/21 20:51:46.064680][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:46.138378][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:47.138793][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:48.138642][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:49.138517][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:50.138505][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:50.598119][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:51:50.732622][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.007948fps
+[05/21 20:51:51.112698][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:51.138298][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:52.138484][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:53.139344][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:54.138668][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:55.138889][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:55.632343][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:51:55.734462][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.988007fps
+[05/21 20:51:56.139567][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:56.160880][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:51:57.138851][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:58.138506][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:51:59.140281][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:00.138420][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:00.633182][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:00.768887][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:52:01.138596][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:01.207874][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:52:02.139097][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:03.138519][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:04.138359][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:05.138323][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:05.634279][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:05.801515][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:52:06.139100][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:06.256338][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:52:07.139003][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:08.139670][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:09.138994][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:10.139596][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:10.667933][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:52:10.802625][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:52:11.138768][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:11.304105][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:12.139863][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:13.138616][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:14.139068][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:15.138319][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:15.668558][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:15.838914][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.984116fps
+[05/21 20:52:16.138515][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:16.352386][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:17.138912][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:18.138802][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:19.139902][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:20.138287][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:20.669346][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:20.870446][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.007948fps
+[05/21 20:52:21.139452][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:21.400536][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:22.139040][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:23.138454][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:24.138333][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:25.138799][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:25.671828][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.988007fps
+[05/21 20:52:25.871498][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:52:26.138673][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:26.448563][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:27.138446][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:28.138715][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:29.138923][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:30.139707][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:30.704568][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:52:30.905447][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:52:31.138549][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:31.496641][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:32.139246][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:33.138444][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:33.532531][debug][8150][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1440 logs in 48002ms, last: 20:52:33.506376**]
+[05/21 20:52:33.814913][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**666 logs in 48024ms**]
+[05/21 20:52:34.139253][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:35.138431][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:35.738320][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:52:35.906328][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:52:36.138651][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:36.544957][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:37.138285][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:38.139286][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:39.138600][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:40.138579][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:40.739249][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:40.940403][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:52:41.140135][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:41.591893][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:52:42.138555][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:43.138431][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:44.138400][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:45.139228][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:45.740482][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:45.974562][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:52:46.138769][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:46.640094][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:52:47.138621][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:48.138765][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:49.138523][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:50.138751][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:50.773988][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:52:50.975485][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:52:51.140677][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:51.688188][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:52.138986][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:53.140175][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:54.138420][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:55.139476][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:55.774742][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:52:56.009684][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:52:56.138766][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:56.736329][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:52:57.138318][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:58.139514][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:52:59.138601][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:00.138610][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:00.775505][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:01.044181][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:53:01.139407][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:01.784491][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:02.138783][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:03.139193][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:04.139833][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:05.138704][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:05.776234][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:06.045022][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:53:06.139903][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:06.832622][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:07.138351][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:08.138770][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:09.138377][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:10.138955][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:10.777032][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:11.078266][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:53:11.138690][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:11.881102][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:53:12.138404][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:13.138732][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:14.138564][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:15.138490][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:15.811223][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:53:16.112998][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:53:16.140102][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:16.929076][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:17.139148][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:18.139969][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:19.139151][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:20.138648][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:20.846389][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.990070fps
+[05/21 20:53:21.113434][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:53:21.138674][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:21.983994][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.850416fps
+[05/21 20:53:22.138343][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:23.138592][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:24.139011][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:25.139063][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:25.879410][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:53:26.140773][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:26.150243][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.978161fps
+[05/21 20:53:27.031936][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:27.138509][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:28.139502][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:29.138868][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:30.138568][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:30.880091][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:31.138768][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:31.155581][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.169830fps
+[05/21 20:53:32.080439][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:53:32.138461][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:33.138515][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:33.539839][debug][8171][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1800 logs in 60007ms, last: 20:53:33.515013**]
+[05/21 20:53:33.816427][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**832 logs in 60001ms**]
+[05/21 20:53:34.138865][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:35.138566][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:35.914609][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:53:36.138598][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:36.182081][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.838871fps
+[05/21 20:53:37.128220][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:37.139215][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:38.139545][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:39.138866][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:40.139545][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:40.950507][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.984116fps
+[05/21 20:53:41.138782][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:41.216123][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:53:42.138808][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:42.184339][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.844936fps
+[05/21 20:53:43.138431][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:44.138424][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:45.138565][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:45.982586][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.007948fps
+[05/21 20:53:46.138979][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:46.217068][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:53:47.138241][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:47.224566][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.888889fps
+[05/21 20:53:48.144937][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:49.138896][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:50.138792][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:50.983320][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:51.139739][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:51.251067][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:53:52.138484][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:52.272859][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:53:53.138713][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:54.138860][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:55.138381][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:55.984115][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:53:56.139130][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:56.286583][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:53:57.139149][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:57.319582][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:53:58.138537][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:53:59.138663][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:00.138371][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:01.018205][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:01.138598][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:01.292829][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.163803fps
+[05/21 20:54:02.139037][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:02.367772][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:03.139973][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:04.139047][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:05.138486][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:06.019070][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:54:06.138853][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:06.320323][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.832935fps
+[05/21 20:54:07.138931][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:07.416127][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:54:08.138240][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:09.138308][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:10.138786][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:11.054256][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.990070fps
+[05/21 20:54:11.139670][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:11.354363][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:54:12.139218][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:12.464331][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:13.139341][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:14.138856][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:15.138493][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:16.088088][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:16.138386][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:16.356071][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.988007fps
+[05/21 20:54:17.138468][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:17.512151][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:18.138832][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:19.138664][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:20.138782][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:21.121294][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:54:21.138825][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:21.390592][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:54:22.138521][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:22.568262][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.844936fps
+[05/21 20:54:23.138562][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:24.138676][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:25.138932][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:26.138688][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:26.155318][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:26.391224][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.193962fps
+[05/21 20:54:27.138909][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:27.608496][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.888889fps
+[05/21 20:54:28.138543][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:29.138557][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:30.138492][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:31.139710][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:31.156874][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:54:31.424873][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.803299fps
+[05/21 20:54:32.146410][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:32.656999][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:33.139645][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:33.550618][debug][8189][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1800 logs in 60010ms, last: 20:54:33.525095**]
+[05/21 20:54:33.825054][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**832 logs in 60008ms**]
+[05/21 20:54:34.138797][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:35.138862][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:36.138559][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:36.190274][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:36.457935][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:54:37.138626][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:37.703525][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:54:38.138998][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:39.138921][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:40.139050][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:41.138763][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:41.191159][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:54:41.459193][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.988007fps
+[05/21 20:54:42.138606][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:42.752162][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:54:43.138386][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:44.138717][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:45.138376][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:46.139806][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:46.225098][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:46.492667][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:54:47.139777][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:47.800473][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:48.141896][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:49.139986][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:50.138908][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:51.139444][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:51.259127][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:51.493924][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:54:52.138915][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:52.848224][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:54:53.138389][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:54.139985][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:55.138909][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:56.140835][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:56.293214][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:54:56.528298][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:54:57.138867][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:57.900098][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.855899fps
+[05/21 20:54:58.138311][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:54:59.141060][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:00.139019][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:01.138856][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:01.327332][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:55:01.562069][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:55:02.138924][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:02.952361][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.855899fps
+[05/21 20:55:03.138840][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:04.141054][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:05.139000][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:06.139115][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:06.328204][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:06.595785][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:55:07.138576][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:07.992352][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.888889fps
+[05/21 20:55:08.138391][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:09.138760][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:10.138843][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:11.138418][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:11.362201][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:55:11.597037][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.988007fps
+[05/21 20:55:12.138669][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:13.040708][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:55:13.139110][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:14.139206][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:15.138272][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:16.138495][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:16.363102][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:16.631332][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:55:17.138524][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:18.087619][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:55:18.139577][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:19.138675][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:20.139017][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:21.140333][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:21.397112][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:55:21.632158][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:55:22.139017][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:23.136174][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.864132fps
+[05/21 20:55:23.138315][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:24.138900][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:25.138420][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:26.138424][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:26.432283][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.990070fps
+[05/21 20:55:26.666043][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:55:27.138598][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:28.138508][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:28.183839][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.869626fps
+[05/21 20:55:29.140346][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:30.140108][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:31.139116][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:31.465298][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:55:31.699990][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:55:32.138658][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:33.138682][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:33.231775][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:55:33.558677][debug][8191][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1800 logs in 60008ms, last: 20:55:33.533762**]
+[05/21 20:55:33.892658][debug][8192][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**832 logs in 60067ms, last: 20:55:33.823188**]
+[05/21 20:55:34.139750][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:35.138529][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:36.138743][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:36.466122][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:36.700635][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:55:37.138559][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:38.138853][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:38.284036][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.853157fps
+[05/21 20:55:39.138757][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:40.139053][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:41.138398][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:41.467340][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:41.735318][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:55:42.138448][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:43.139410][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:43.337197][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.853157fps
+[05/21 20:55:44.138397][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:45.138593][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:46.138786][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:46.500993][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:55:46.736666][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:55:47.139572][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:48.138684][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:48.376444][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.891645fps
+[05/21 20:55:49.139218][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:50.138654][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:51.139147][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:51.501736][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:51.769818][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:55:52.138374][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:53.140975][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:53.424769][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:55:54.139503][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:55.138572][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:56.138396][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:56.502494][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:55:56.804101][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:55:57.138660][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:58.138449][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:55:58.479553][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.847676fps
+[05/21 20:55:59.138645][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:00.138794][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:01.138673][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:01.503868][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:01.806638][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.187925fps
+[05/21 20:56:02.138637][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:03.138853][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:03.527598][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:56:04.139337][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:05.138847][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:06.139398][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:06.504091][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:06.839635][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.803299fps
+[05/21 20:56:07.139776][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:08.138388][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:08.571596][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.877874fps
+[05/21 20:56:09.138852][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:10.138326][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:11.138546][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:11.538176][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:56:11.874349][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:56:12.138795][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:13.139157][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:13.627792][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.844936fps
+[05/21 20:56:14.139776][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:15.138921][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:16.139108][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:16.539045][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:16.906979][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.007948fps
+[05/21 20:56:17.138730][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:18.139078][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:18.668963][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.886134fps
+[05/21 20:56:19.138661][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:20.138749][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:21.138510][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:21.573065][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:56:21.907724][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:56:22.138350][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:23.138386][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:23.720253][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.855899fps
+[05/21 20:56:24.138584][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:25.139576][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:26.138911][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:26.607289][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:56:26.942037][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:56:27.138524][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:28.138628][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:28.764143][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.877874fps
+[05/21 20:56:29.138685][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:30.138530][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:31.138607][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:31.641274][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:56:31.943909][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:56:32.143555][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:33.138595][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:33.568195][debug][8194][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1800 logs in 60009ms, last: 20:56:33.544113**]
+[05/21 20:56:33.812207][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:56:33.897513][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**833 logs in 60004ms**]
+[05/21 20:56:34.138666][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:35.138944][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:36.139863][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:36.642714][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:36.977318][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:56:37.140053][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:38.138655][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:38.863298][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.858642fps
+[05/21 20:56:39.139591][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:40.138973][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:41.138760][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:41.644014][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:42.012015][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:56:42.138446][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:43.138417][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:43.911443][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:56:44.138832][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:45.138787][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:46.138452][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:46.644074][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:47.013449][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:56:47.138903][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:48.140207][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:48.955799][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.877874fps
+[05/21 20:56:49.139117][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:50.138893][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:51.139464][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:51.677828][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=30.001987fps
+[05/21 20:56:52.045510][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.007948fps
+[05/21 20:56:52.138727][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:53.138759][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:54.011969][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.844936fps
+[05/21 20:56:54.138590][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:55.138244][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:56.138763][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:56.678475][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:56:57.046455][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.994001fps
+[05/21 20:56:57.139486][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:58.139616][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:56:59.051926][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.888889fps
+[05/21 20:56:59.139468][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:00.138169][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:01.139195][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:01.679244][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:57:02.080407][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:57:02.138786][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:03.138409][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:04.104053][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.853157fps
+[05/21 20:57:04.139717][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:05.138590][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:06.138509][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:06.713308][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:57:07.114555][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.996027fps
+[05/21 20:57:07.139289][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:08.138819][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:09.139326][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:09.148035][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.877874fps
+[05/21 20:57:10.138614][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:11.139039][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:11.714107][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:57:12.116332][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.988007fps
+[05/21 20:57:12.138303][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:13.138691][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:14.138397][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:14.196197][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:57:15.138574][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:16.138698][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:16.748229][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:57:17.138316][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:17.149322][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.001987fps
+[05/21 20:57:18.138757][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:19.138636][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:19.247258][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.858642fps
+[05/21 20:57:20.138771][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:21.139139][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:21.749021][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:57:22.139864][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:22.187246][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.972210fps
+[05/21 20:57:23.138722][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:24.138497][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:24.295304][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.866879fps
+[05/21 20:57:25.138717][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:26.139542][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:26.783078][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.996027fps
+[05/21 20:57:27.138615][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:27.198973][debug][8022][Pipeline.cpp:323] Pipeline streaming... frameset output rate=30.133705fps
+[05/21 20:57:28.138738][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:29.138273][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:29.339485][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.877874fps
+[05/21 20:57:30.138526][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:31.138467][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:31.784851][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:57:32.139350][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:32.218301][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.880478fps
+[05/21 20:57:33.138588][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:33.576881][debug][8201][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**1800 logs in 60008ms, last: 20:57:33.552317**]
+[05/21 20:57:33.902855][debug][8022][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**832 logs in 60005ms**]
+[05/21 20:57:34.138364][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:34.395590][debug][8013][VideoSensor.cpp:427] OB_SENSOR_COLOR Streaming... frameRate=13.844936fps
+[05/21 20:57:35.138958][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:36.138773][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:36.785633][debug][8014][VideoSensor.cpp:427] OB_SENSOR_DEPTH Streaming... frameRate=29.994001fps
+[05/21 20:57:37.138313][debug][7805][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[05/21 20:57:37.253140][debug][8020][Pipeline.cpp:323] Pipeline streaming... frameset output rate=29.990070fps
+[05/21 20:57:48.734181][debug][7962][LinuxPal.cpp:266] Device removed event occurred
+[05/21 20:57:48.734199][error][7805][ObLibuvcDevicePort.cpp:255] setXu failed, error code=-4
+[05/21 20:57:48.734436][debug][7962][UsbDeviceEnumerator.cpp:137] usb device removed: 4-1-2
+[05/21 20:57:48.734485][error][7805][HostProtocol.cpp:578] get firmware data failed. propertyId: 1003, rc: {statusCode: 2, respErrorCode: 65535, msg: send control transfer failed!}
+[05/21 20:57:48.734532][warning][7805][ObException.hpp:40] Request failed, statusCode: 2, msg: send control transfer failed!
+[05/21 20:57:48.734506][debug][7962][UsbDeviceEnumerator.cpp:137] usb device removed: 4-1-2
+[05/21 20:57:48.734630][debug][7962][UsbDeviceEnumerator.cpp:137] usb device removed: 4-1-2
+[05/21 20:57:48.734634][debug][7962][UsbDeviceEnumerator.cpp:142] Current usb device port list:
+[05/21 20:57:48.734639][debug][7962][UsbDeviceEnumerator.cpp:145]  - 3-2-5.0 | Orbbec Astra+ RGB Camera
+[05/21 20:57:48.734694][debug][7962][UsbDeviceEnumerator.cpp:105] device list changed: removed=1, current=0
+[05/21 20:57:48.734703][debug][7962][UsbDeviceEnumerator.cpp:107] Removed device list:
+[05/21 20:57:48.734708][debug][7962][UsbDeviceEnumerator.cpp:109]   - Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP
+[05/21 20:57:48.735112][info][8253][DeviceManager.cpp:181] Device changed! removed: 1, added: 0
+[05/21 20:57:48.735130][debug][8253][VendorCommand.cpp:381] handleDeviceDetached
+[05/21 20:57:48.739731][error][7805][ObLibuvcDevicePort.cpp:255] setXu failed, error code=-4
+[05/21 20:57:48.739798][error][7805][HostProtocol.cpp:578] get firmware data failed. propertyId: 1003, rc: {statusCode: 2, respErrorCode: 65535, msg: send control transfer failed!}
+[05/21 20:57:48.739810][warning][7805][ObException.hpp:40] Request failed, statusCode: 2, msg: send control transfer failed!
+[05/21 20:57:48.739868][debug][8253][VideoSensor.cpp:678] VideoSensor::stop, @OB_SENSOR_COLOR
+[05/21 20:57:48.739883][debug][8253][VideoSensor.cpp:701] Stream state changed to STREAM_STATE_STOPPING. @OB_SENSOR_COLOR
+[05/21 20:57:48.739890][debug][8253][ObLibuvcDevicePort.cpp:148] ObLibuvcDevicePort::stopStream()...
+[05/21 20:57:48.740124][debug][8253][ObLibuvcDevicePort.cpp:172] ObLibuvcDevicePort::stopStream() done
+[05/21 20:57:48.740136][debug][8253][VideoSensor.cpp:727] stream stoped! @OB_SENSOR_COLOR
+[05/21 20:57:48.740633][debug][8253][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor15FormatConverterE@0x74bd2006d5b0 
+[05/21 20:57:48.740647][debug][8253][FrameProcessor.cpp:165] FrameProcessor stoped!
+[05/21 20:57:48.740657][debug][8253][VideoSensor.cpp:716] Stream state changed to STREAM_STATE_STOPED. @OB_SENSOR_COLOR
+[05/21 20:57:48.740662][info][8253][VideoSensor.cpp:734] Video sensor stopped, @OB_SENSOR_COLOR
+[05/21 20:57:48.740669][debug][8253][VideoSensor.cpp:678] VideoSensor::stop, @OB_SENSOR_DEPTH
+[05/21 20:57:48.740673][debug][8253][VideoSensor.cpp:701] Stream state changed to STREAM_STATE_STOPPING. @OB_SENSOR_DEPTH
+[05/21 20:57:48.740678][debug][8253][ObLibuvcDevicePort.cpp:148] ObLibuvcDevicePort::stopStream()...
+[05/21 20:57:48.741035][debug][8253][ObLibuvcDevicePort.cpp:172] ObLibuvcDevicePort::stopStream() done
+[05/21 20:57:48.741050][debug][8253][VideoSensor.cpp:727] stream stoped! @OB_SENSOR_DEPTH
+[05/21 20:57:48.742199][debug][8253][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor13FrameUnpackerE@0x74bd200352e0 
+[05/21 20:57:48.743174][debug][8253][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor15FrameSoftFilterE@0x74bd2006cb90 
+[05/21 20:57:48.743640][debug][8253][FrameProcessingBlock.cpp:74] Process thread stoped! N11libobsensor24Disparity2DepthConverterE@0x74bd200360c0 
+[05/21 20:57:48.743733][debug][8253][FrameProcessor.cpp:165] FrameProcessor stoped!
+[05/21 20:57:48.743863][debug][8253][HostProtocol.cpp:433] Set property value, propertyId=38, value={intValue: 1, floatValue: 1.4013e-45}
+[05/21 20:57:48.743878][error][8253][ObLibuvcDevicePort.cpp:255] setXu failed, error code=-4
+[05/21 20:57:48.743884][error][8253][HostProtocol.cpp:436] Set property value failed! propertyId:38, rc:{statusCode: 2, respErrorCode: 65535, msg: send control transfer failed!}
+[05/21 20:57:48.743889][warning][8253][ObException.hpp:40] Request failed, statusCode: 2, msg: send control transfer failed!
+[05/21 20:57:48.744790][warning][8253][VideoSensor.cpp:772] Execute failure! A libobsensor_exception has occurred!
+	 - where:772#sendStopStreamVendorCmd
+	 - msg:Request failed, statusCode: 2, msg: send control transfer failed!
+	 - type:N11libobsensor12io_exceptionE
+[05/21 20:57:48.744960][error][8253][VideoSensor.cpp:772] setPropertyValue to stop stream failed! @OB_SENSOR_DEPTH
+[05/21 20:57:48.744969][debug][8253][VideoSensor.cpp:716] Stream state changed to STREAM_STATE_STOPED. @OB_SENSOR_DEPTH
+[05/21 20:57:48.744974][info][8253][VideoSensor.cpp:734] Video sensor stopped, @OB_SENSOR_DEPTH
+[05/21 20:57:48.745488][info][8253][DeviceManager.cpp:15] Removed device(s) list: (1)
+[05/21 20:57:48.745601][info][8253][DeviceManager.cpp:24] 	- Name: Astra+, PID: 0x0636, SN/ID: BY1N73300CP, Connection: USB3.0
+[05/21 20:57:48.745717][info][8253][DeviceManager.cpp:15] Current device(s) list: (0)
+[05/21 20:57:48.746348][info][7969][Pipeline.cpp:411] Try to stop pipeline!
+[05/21 20:57:48.746441][info][7969][Pipeline.cpp:383] Try to stop streams!
+[05/21 20:57:48.746451][debug][7969][VideoSensor.cpp:678] VideoSensor::stop, @OB_SENSOR_DEPTH
+[05/21 20:57:48.746455][warning][7969][VideoSensor.cpp:680] Sensor(OB_SENSOR_DEPTH) already stop.
+[05/21 20:57:48.746458][info][7969][Pipeline.cpp:396] Sensor stream stopped, sensorType=OB_SENSOR_DEPTH
+[05/21 20:57:48.746462][debug][7969][VideoSensor.cpp:678] VideoSensor::stop, @OB_SENSOR_COLOR
+[05/21 20:57:48.746465][warning][7969][VideoSensor.cpp:680] Sensor(OB_SENSOR_COLOR) already stop.
+[05/21 20:57:48.746467][info][7969][Pipeline.cpp:396] Sensor stream stopped, sensorType=OB_SENSOR_COLOR
+[05/21 20:57:48.746470][info][7969][Pipeline.cpp:402] Stop streams done!
+[05/21 20:57:48.746485][debug][7969][HostProtocol.cpp:433] Set property value, propertyId=42, value={intValue: 0, floatValue: 0}
+[05/21 20:57:48.746492][error][7969][ObLibuvcDevicePort.cpp:255] setXu failed, error code=-4
+[05/21 20:57:48.746496][error][7969][HostProtocol.cpp:436] Set property value failed! propertyId:42, rc:{statusCode: 2, respErrorCode: 65535, msg: send control transfer failed!}
+[05/21 20:57:48.746501][warning][7969][ObException.hpp:40] Request failed, statusCode: 2, msg: send control transfer failed!
+[05/21 20:57:48.746521][warning][7969][AbstractDevice.cpp:1071] Execute failure! A libobsensor_exception has occurred!
+	 - where:1071#resetAlignMode
+	 - msg:Request failed, statusCode: 2, msg: send control transfer failed!
+	 - type:N11libobsensor12io_exceptionE
+[05/21 20:57:48.746524][warning][7969][AbstractDevice.cpp:1071] set depth align failed.
+[05/21 20:57:48.746536][debug][7969][FrameProcessingBlockManager.cpp:84] FrameProcessingBlockManager stoped!
+[05/21 20:57:48.746539][debug][7969][FrameProcessingBlockManager.cpp:20] Processing block list cleared!
+[05/21 20:57:48.746544][info][7969][Pipeline.cpp:443] Stop pipeline done!
+[05/21 20:57:48.748377][debug][7969][Pipeline.cpp:68] Pipeline deInit start!
+[05/21 20:57:48.748460][info][7969][Pipeline.cpp:75] Pipeline destroyed! @0x74BD202BE370
+[05/21 20:57:48.748529][info][7969][AstraUvcDevice.cpp:27] Astra device destroyed! PID: 0x0636, SN: BY1N73300CP
+[05/21 20:57:48.748594][debug][7969][VideoSensor.cpp:282] VideoSensor::~VideoSensor(), @OB_SENSOR_IR
+[05/21 20:57:48.748600][info][7969][VideoSensor.cpp:303] VideoSensor destroyed, @OB_SENSOR_IR
+[05/21 20:57:48.748606][debug][7969][VideoSensor.cpp:282] VideoSensor::~VideoSensor(), @OB_SENSOR_COLOR
+[05/21 20:57:48.748618][info][7969][VideoSensor.cpp:303] VideoSensor destroyed, @OB_SENSOR_COLOR
+[05/21 20:57:48.748625][debug][7969][VideoSensor.cpp:282] VideoSensor::~VideoSensor(), @OB_SENSOR_DEPTH
+[05/21 20:57:48.748628][info][7969][VideoSensor.cpp:303] VideoSensor destroyed, @OB_SENSOR_DEPTH
+[05/21 20:57:48.748642][debug][7969][FrameProcessor.cpp:807] try remove eventId: PropertyValueUpdate
+[05/21 20:57:48.748647][debug][7969][FrameProcessor.cpp:807] try remove eventId: DepthStreamProfileChanged
+[05/21 20:57:48.748654][debug][7969][FrameProcessor.cpp:111] FrameProcessor destroyed! @128355634688464
+[05/21 20:57:48.748967][debug][7969][FrameProcessor.cpp:111] FrameProcessor destroyed! @128355634688288
+[05/21 20:57:48.749134][debug][7969][ObLibuvcDevicePort.cpp:63] ~ObLibuvcDevicePort
+[05/21 20:57:48.749309][info][7969][ObLibuvcDevicePort.cpp:70] uvc_close done.
+[05/21 20:57:48.749319][info][7969][ObLibuvcDevicePort.cpp:71] ~ObLibuvcDevicePort done
+[05/21 20:57:48.749507][debug][7969][FrameProcessor.cpp:111] FrameProcessor destroyed! @128355634567408
+[05/21 20:57:48.749518][debug][7969][VendorCommand.cpp:213] destructor 74bd2000c660
+[05/21 20:57:48.749524][debug][7969][VendorCommand.cpp:467] disableHeartBeat heartBeatHelper_: 0
+[05/21 20:57:48.749528][debug][7969][HostProtocol.cpp:139] ~HostProtocol()
+[05/21 20:57:48.752292][debug][7990][HostProtocol.cpp:167] emitTranDataFutureSignalThread_ finish
+[05/21 20:57:48.752511][debug][7969][ObLibuvcDevicePort.cpp:63] ~ObLibuvcDevicePort
+[05/21 20:57:48.752660][info][7969][ObLibuvcDevicePort.cpp:70] uvc_close done.
+[05/21 20:57:48.752697][info][7969][ObLibuvcDevicePort.cpp:71] ~ObLibuvcDevicePort done
+[05/21 20:57:48.752722][debug][7969][ObLibuvcDevicePort.cpp:63] ~ObLibuvcDevicePort
+[05/21 20:57:48.752813][info][7969][ObLibuvcDevicePort.cpp:70] uvc_close done.
+[05/21 20:57:48.752820][info][7969][ObLibuvcDevicePort.cpp:71] ~ObLibuvcDevicePort done
+[05/21 20:57:48.785665][debug][7962][LinuxPal.cpp:266] Device removed event occurred
+[05/21 20:57:48.785709][debug][7962][UsbDeviceEnumerator.cpp:137] usb device removed: 3-2-5
+[05/21 20:57:48.785713][debug][7962][UsbDeviceEnumerator.cpp:142] Current usb device port list:
+[05/21 20:58:33.585672][debug][8237][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_DEPTH [**123 logs in 60008ms, last: 20:57:37.653572**]
+[05/21 20:58:33.966242][debug][8238][Pipeline.cpp:319] Frame received on pipeline! type=OB_FRAME_COLOR [**52 logs in 60063ms, last: 20:57:37.646776**]
+[05/21 21:01:39.068675][debug][7805][Context.cpp:81] Context destroying ...
+[05/21 21:01:39.068984][debug][7805][DeviceManager.cpp:56] DeviceManager destroy ...
+[05/21 21:01:39.069109][debug][7805][DeviceManager.cpp:64] DeviceManager Destructors done
+[05/21 21:01:39.070652][debug][7805][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor8FrameSetE,  obj addr:0x74bd08000b70
+[05/21 21:01:39.070676][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=16.593MB, max limit=2048.000MB
+[05/21 21:01:39.070684][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.000MB, total usage: allocated=16.593MB, max limit=2048.000MB
+[05/21 21:01:39.070692][debug][7805][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x74bd08000b70
+[05/21 21:01:39.070699][debug][7805][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10DepthFrameE,  obj addr:0x74bd10000b70
+[05/21 21:01:39.070853][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.586MB, total usage: allocated=16.007MB, max limit=2048.000MB
+[05/21 21:01:39.070950][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.586MB, total usage: allocated=15.420MB, max limit=2048.000MB
+[05/21 21:01:39.071012][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.586MB, total usage: allocated=14.834MB, max limit=2048.000MB
+[05/21 21:01:39.071079][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.586MB, total usage: allocated=14.247MB, max limit=2048.000MB
+[05/21 21:01:39.071100][debug][7805][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x74bd10000b70
+[05/21 21:01:39.071106][debug][7805][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10DepthFrameE,  obj addr:0x74bd202bec40
+[05/21 21:01:39.071985][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=0.403MB, total usage: allocated=13.844MB, max limit=2048.000MB
+[05/21 21:01:39.072005][debug][7805][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x74bd202bec40
+[05/21 21:01:39.072013][debug][7805][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10ColorFrameE,  obj addr:0x74bd00000b70
+[05/21 21:01:39.072020][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=5.933MB, total usage: allocated=7.911MB, max limit=2048.000MB
+[05/21 21:01:39.073178][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=5.933MB, total usage: allocated=1.978MB, max limit=2048.000MB
+[05/21 21:01:39.073227][debug][7805][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x74bd00000b70
+[05/21 21:01:39.073239][debug][7805][FrameBufferManager.hpp:72] FrameBufferManager destroying...! frame type: N11libobsensor10ColorFrameE,  obj addr:0x74bd202c1110
+[05/21 21:01:39.073287][debug][7805][FrameBufferManager.cpp:54] Frame buffer released=1.978MB, total usage: allocated=0.000MB, max limit=2048.000MB
+[05/21 21:01:39.073292][debug][7805][FrameBufferManager.cpp:69] AbstractFrameBufferManager destroyed! manager type:N11libobsensor26AbstractFrameBufferManagerE,  obj addr:0x74bd202c1110
+[05/21 21:01:39.073296][info][7805][Context.cpp:84] Context destroyed
+[05/21 21:01:45.133524][debug][9255][Context.cpp:30] Context creating, work_dir=/home/futill/dummy2_hand_eye_calibration_ws/src
+[05/21 21:01:45.133605][debug][9255][Context.cpp:49] Config file version=1.1
+[05/21 21:01:45.133629][debug][9255][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 21:01:45.133637][info][9255][Context.cpp:68] Context created with config: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 21:01:45.133677][info][9255][Context.cpp:73] Work directory=/home/futill/dummy2_hand_eye_calibration_ws/src, SDK version=v1.10.22-20250410-46139de
+[05/21 21:01:45.133701][debug][9255][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 21:01:45.133708][info][9255][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[05/21 21:01:45.138006][debug][9255][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 21:01:45.138060][debug][9255][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[05/21 21:01:45.138502][info][9255][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[05/21 21:01:45.138762][debug][9255][UsbDeviceEnumerator.cpp:78] No matched usb device found!
+[05/21 21:01:45.138941][info][9255][DeviceManager.cpp:15] Current found device(s): (0)
+[05/21 21:01:45.138965][debug][9255][DeviceManager.cpp:52] DeviceManager construct done!
+[05/21 21:01:45.148348][info][9255][DeviceManager.cpp:304] Enable net device enumeration: false
+[05/21 21:01:50.911988][debug][9255][Context.cpp:81] Context destroying ...
+[05/21 21:01:50.912079][debug][9255][DeviceManager.cpp:56] DeviceManager destroy ...
+[05/21 21:01:50.912093][debug][9255][DeviceManager.cpp:64] DeviceManager Destructors done
+[05/21 21:01:50.913315][info][9255][Context.cpp:84] Context destroyed

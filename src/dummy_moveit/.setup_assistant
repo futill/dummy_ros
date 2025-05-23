@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: dummy2-gripperv3_description
+    relative_path: dummy2-SLDASM.urdf
+  srdf:
+    relative_path: config/dummy2-SLDASM.srdf
+  package_settings:
+    author_name: a
+    author_email: a@a.com
+    generated_timestamp: 1739498682
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

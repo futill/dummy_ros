@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dummy2-SLDASM">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import dummy2-SLDASM urdf file -->
+    <xacro:include filename="$(find dummy2-gripperv3_description)/urdf/dummy2-SLDASM.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="dummy2-SLDASM.ros2_control.xacro" />
+
+
+    <xacro:dummy2-SLDASM_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>
