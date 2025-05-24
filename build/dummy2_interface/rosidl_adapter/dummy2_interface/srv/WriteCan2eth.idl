@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dummy2_interface/srv/WriteCan2eth.srv
+// generated code does not contain a copyright notice
+
+
+module dummy2_interface {
+  module srv {
+    struct WriteCan2eth_Request {
+      sequence<double> pos_commands;
+
+      sequence<double> vel_commands;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct WriteCan2eth_Response {
+      boolean success;
+    };
+  };
+};

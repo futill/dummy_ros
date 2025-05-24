@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rboot_libs.egg-info/PKG-INFO
+writing dependency_links to rboot_libs.egg-info/dependency_links.txt
+writing entry points to rboot_libs.egg-info/entry_points.txt
+writing requirements to rboot_libs.egg-info/requires.txt
+writing top-level names to rboot_libs.egg-info/top_level.txt
+reading manifest file 'rboot_libs.egg-info/SOURCES.txt'
+writing manifest file 'rboot_libs.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages/rboot-libs.egg-link (link to .)
+
+Installed /home/futill/dummy2_hand_eye_calibration_ws/build/rboot_libs
+running symlink_data

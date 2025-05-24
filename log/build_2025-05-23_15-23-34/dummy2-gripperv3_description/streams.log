@@ -1,0 +1,41 @@
+[1.290s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description': PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/build --no-deps symlink_data
+[1.654s] running develop
+[1.658s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.658s]   warnings.warn(
+[1.838s] running egg_info
+[1.838s] creating dummy2_gripperv3_description.egg-info
+[1.839s] writing dummy2_gripperv3_description.egg-info/PKG-INFO
+[1.839s] writing dependency_links to dummy2_gripperv3_description.egg-info/dependency_links.txt
+[1.839s] writing entry points to dummy2_gripperv3_description.egg-info/entry_points.txt
+[1.839s] writing requirements to dummy2_gripperv3_description.egg-info/requires.txt
+[1.839s] writing top-level names to dummy2_gripperv3_description.egg-info/top_level.txt
+[1.839s] writing manifest file 'dummy2_gripperv3_description.egg-info/SOURCES.txt'
+[1.850s] reading manifest file 'dummy2_gripperv3_description.egg-info/SOURCES.txt'
+[1.850s] writing manifest file 'dummy2_gripperv3_description.egg-info/SOURCES.txt'
+[1.916s] running build_ext
+[1.916s] Creating /home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages/dummy2-gripperv3-description.egg-link (link to .)
+[1.916s] 
+[1.917s] Installed /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description
+[1.917s] running symlink_data
+[1.917s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/resource/dummy2-gripperv3_description -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages
+[1.917s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/package.xml -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description
+[1.917s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/launch
+[1.917s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/launch/display.launch.py -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/launch
+[1.917s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/launch/gazebo.launch.py -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/launch
+[1.918s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.918s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/urdf/dummy2-gripperv3.trans -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/urdf/materials.xacro -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/urdf/dummy2-SLDASM.urdf -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/urdf/dummy2-gripperv3.xacro -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/urdf/dummy2-gripperv3.gazebo -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/urdf
+[1.922s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/base_link.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l1.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l2.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.922s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l5.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.923s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l3.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.923s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l6.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.923s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/meshes/l4.STL -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/meshes
+[1.923s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/config
+[1.923s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/config/display.rviz -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2-gripperv3_description/config
+[2.023s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description' returned '0': PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description/build --no-deps symlink_data

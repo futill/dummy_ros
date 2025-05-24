@@ -9,6 +9,7 @@ from collections import deque
 from dummy2_interface.srv import InitCan2eth
 from dummy2_interface.srv import WriteCan2eth
 from dummy2_interface.srv import ReadCan2eth
+from std_msgs.msg import Int8
 
 class Dummy2Can2EthServer(Node):
     def __init__(self):
@@ -24,12 +25,17 @@ class Dummy2Can2EthServer(Node):
         self.target_positions = [0.0] * 6 
         self.flag = [0.0] * 6 
         self.position_tolerance = 5
-        self.initialized = False  
+        self.initialized = False   
+        self.last_update_time = self.get_clock().now()
+        self.stable_wait_duration = rclpy.duration.Duration(seconds=0.1)  # 100ms
 
         self.pos = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]  
         #self.vel = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
 
-        
+        self.subscription = self.create_subscription(Int8,
+                                        "/grip",
+                                        self.grip,
+                                        1)
         self.declare_parameter('serial_port', '/dev/ttyS0')
         self.declare_parameter('baudrate', 115200)
         self._serial_port = self.get_parameter('serial_port').get_parameter_value().string_value
@@ -60,6 +66,17 @@ class Dummy2Can2EthServer(Node):
 
 
         self._is_active = False  
+    
+    def grip(self, msg):
+        state = msg.data
+        if state == 1:
+            frame = bytearray([0x01, 0xAD, 0x00, 0x00, 0x00, 0x00, 0x00, 0x6B])
+            self._serial.write(frame)
+        elif state == 0:
+            frame = bytearray([0x01, 0xBD, 0x00, 0x00, 0x00, 0x00, 0x00, 0x6B])
+            self._serial.write(frame)
+
+
 
     def init_can2eth_callback(self, request, response):
         try:
@@ -115,7 +132,6 @@ class Dummy2Can2EthServer(Node):
         response.vel_commands = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         for i in range(6):
                 response.pos_commands[i] = self.actuator_pos[i]
-                response.pos_commands[i] = self.actuator_pos[i]
             #response.vel_commands[i] = self.actuator_vel[i]
         response.success = True
         return response
@@ -151,65 +167,68 @@ class Dummy2Can2EthServer(Node):
         
     def send_to_dummy2(self, request):
         self._read_position()
+
+        now = self.get_clock().now()
+
         if not self.initialized:
-            time.sleep(0.1) 
+            time.sleep(0.1)
             for i in range(6):
                 if self.pos[i] != 0:
-                    self.target_positions[i] = self.pos[i]  
-                    self.get_logger().info(f'更新关节 {i + 1}: 位置={self.pos[i]:.4f} 度')
+                    self.target_positions[i] = self.pos[i]
                     self.get_logger().info(f'初始化关节 {i + 1} 目标位置: {self.target_positions[i]:.4f} 度')
-            self.initialized = True  
+            self.initialized = True
+
+        # === 阶段 1：收集目标 ===
+        updated = False
         for i in range(6):
-            p = request.pos_commands[i]  
-            motor_pos = p
-
-
-            
-            if abs(motor_pos - self.target_positions[i]) > 0.1 and abs(motor_pos !=  self.pos[i]and self.last_positions_task[i] - motor_pos) > 1e-6:  # 避免重复命令
-                self.task_queues[i].append(motor_pos)
-                self.last_positions_task[i]= motor_pos
-                self.get_logger().info(f'关节 {i + 1} 添加位置命令到队列: pos={motor_pos:.4f} 度')
-            else:
+            new_target = request.pos_commands[i]
+            if abs(new_target - self.last_positions_task[i]) > 1e-6:
+                self.task_queues[i].clear()
+                self.task_queues[i].append(new_target)
+                self.last_positions_task[i] = new_target
                 self.flag[i] = 1
+                updated = True
+                self.get_logger().info(f'关节 {i + 1} 收到新目标: pos={new_target:.4f} 度')
 
+        if updated:
+            self.last_update_time = now  # 更新时间戳
 
-            
-            #self.get_logger().info(f'更新关节 {i + 1}: 位置={self.pos[i]:.4f} 度')
-            #self.get_logger().info(f'更新关节 {i + 1}: 位置={self.target_positions[i]:.4f} 度')
-            #self.get_logger().info(f'关节 {i + 1} 检查: 队列长度={len(self.task_queues[i])}, 队列={list(self.task_queues[i])}')
+        # === 阶段 2：等待所有目标稳定后统一发送 ===
+        if all(self.flag[i] == 1 and self.task_queues[i] for i in range(6)):
+            if now - self.last_update_time >= self.stable_wait_duration:
+                self.get_logger().info('所有目标已稳定，准备发送串口指令')
+                for i in reversed(range(6)):  # 可改为 range(6) 看你需要顺序
+                    motor_pos = self.task_queues[i].pop()
+                    self.task_queues[i].clear()
+                    self.target_positions[i] = motor_pos
+                    self.flag[i] = 0
 
-            if  self.task_queues[i] and self.flag[i]==1:
-                motor_pos = self.task_queues[i][-1]  # 获取最后一个位置指令
-                self.task_queues[i].clear()         # 清空队列
-                self.target_positions[i] = motor_pos
-                self.flag[i] =0
-                self.get_logger().info(f'更新关节 {i + 1}: 位置={self.target_positions[i]:.4f} 度')
+                    packet = bytearray(8)
+                    packet[0] = i + 1
+                    packet[1] = 0xFD
+                    packet[2] = 0x01 if motor_pos >= 0 else 0x00
+                    if i == 5:
+                        abs_p_scaled = int(abs(motor_pos) * 3200.0 / 360.0)
+                    else:
+                        abs_p_scaled = int(abs(motor_pos) * 50.0 * 3200.0 / 360.0)
+                    packet[3:7] = struct.pack('>I', abs_p_scaled)
+                    packet[7] = 0x6B
 
-                packet = bytearray(8)
-                packet[0] = i + 1
-                packet[1] = 0xFD
-                packet[2] = 0x01 if motor_pos >= 0 else 0x00
-                if i ==5:
-                    abs_p_scaled = int(abs(motor_pos) * 3200.0 / 360.0)
-                else :
-                    abs_p_scaled = int(abs(motor_pos) * 50.0 * 3200.0 / 360.0)
-                packet[3:7] = struct.pack('>I', abs_p_scaled)
-                packet[7] = 0x6B
-
-                self.get_logger().info(f'尝试发送给关节 {i + 1}: 位置={motor_pos:.4f} 度, 数据包={packet.hex()}')
-                self.last_positions[i] = motor_pos
-                self._serial.write(packet)
-                self._serial.flush()
-                time.sleep(0.02)
+                    self.get_logger().info(f'发送关节 {i + 1}: pos={motor_pos:.4f}, 数据={packet.hex()}')
+                    self.last_positions[i] = motor_pos
+                    self._serial.write(packet)
+                    self._serial.flush()
+                    time.sleep(0.02)
             else:
-                self.get_logger().debug(f'关节 {i + 1} 等待到达目标位置: 当前={self.pos[i]:.4f}, 目标={self.target_positions[i]:.4f}')
+                elapsed_ns = (now - self.last_update_time).nanoseconds
+                remaining = (self.stable_wait_duration.nanoseconds - elapsed_ns) / 1e6
+                self.get_logger().info(f'等待中，剩余 {remaining:.2f} ms')
 
-                def on_shutdown(self):
-                    self.get_logger().info('Shutting down Dummy2Can2EthServer')
-                    self._is_active = False
-                    if self._serial and self._serial.is_open:
-                        self._serial.close()
-                        self.get_logger().info('Serial port closed')
+    def on_shutdown(self):
+        self.get_logger().info('Shutting down Dummy2Can2EthServer')
+        if self._serial and self._serial.is_open:
+            self._serial.close()
+            self.get_logger().info('Serial port closed')
 
 def main(args=None):
     rclpy.init(args=args)

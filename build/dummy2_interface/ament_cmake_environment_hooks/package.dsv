@@ -1,0 +1,4 @@
+source;share/dummy2_interface/local_setup.bash
+source;share/dummy2_interface/local_setup.dsv
+source;share/dummy2_interface/local_setup.sh
+source;share/dummy2_interface/local_setup.zsh

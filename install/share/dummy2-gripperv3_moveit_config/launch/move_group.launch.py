@@ -1,0 +1,1 @@
+/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config/launch/move_group.launch.py

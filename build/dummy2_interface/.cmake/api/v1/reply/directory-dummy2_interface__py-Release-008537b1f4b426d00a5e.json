@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dummy2_interface__py",
+		"source" : "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py"
+	}
+}

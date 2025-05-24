@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+dummy2_can2eth/__init__.py
+dummy2_can2eth/arm_joy.py
+dummy2_can2eth/dummy2_can2eth_server.py
+dummy2_can2eth.egg-info/PKG-INFO
+dummy2_can2eth.egg-info/SOURCES.txt
+dummy2_can2eth.egg-info/dependency_links.txt
+dummy2_can2eth.egg-info/entry_points.txt
+dummy2_can2eth.egg-info/requires.txt
+dummy2_can2eth.egg-info/top_level.txt
+dummy2_can2eth.egg-info/zip-safe
+launch/dummy2_can2eth_server.launch.py
+resource/dummy2_can2eth

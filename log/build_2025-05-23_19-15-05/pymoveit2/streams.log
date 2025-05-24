@@ -1,0 +1,61 @@
+[0.303s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2 -- -j8 -l8
+[0.634s] Built target ament_cmake_python_symlink_pymoveit2
+[0.688s] running egg_info
+[0.688s] writing pymoveit2.egg-info/PKG-INFO
+[0.688s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[0.688s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[0.688s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.689s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.757s] Built target ament_cmake_python_build_pymoveit2_egg
+[0.789s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2 -- -j8 -l8
+[0.798s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2
+[0.825s] -- Install configuration: "Release"
+[0.825s] -- Execute custom install script
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/pythonpath.sh
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/pythonpath.dsv
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt
+[0.825s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt
+[0.826s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[0.828s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_allow_collisions.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_clear_planning_scene.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_collision_mesh.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_collision_primitive.py
+[0.829s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_fk.py
+[0.830s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_gripper.py
+[0.830s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_ik.py
+[0.830s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_joint_goal.py
+[0.830s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_orientation_path_constraint.py
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_pose_goal.py
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/pymoveit2/ex_servo.py
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/ament_prefix_path.sh
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/ament_prefix_path.dsv
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/path.sh
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/environment/path.dsv
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/local_setup.bash
+[0.831s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/local_setup.sh
+[0.832s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/local_setup.zsh
+[0.832s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/local_setup.dsv
+[0.832s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/package.dsv
+[0.833s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages/pymoveit2
+[0.833s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/cmake/pymoveit2Config.cmake
+[0.833s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[0.833s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/pymoveit2/package.xml
+[0.876s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2'...
+[0.876s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[1.090s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2

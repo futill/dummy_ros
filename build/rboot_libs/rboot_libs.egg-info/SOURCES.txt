@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+rboot_libs/__init__.py
+rboot_libs/rbootlibs.py
+rboot_libs.egg-info/PKG-INFO
+rboot_libs.egg-info/SOURCES.txt
+rboot_libs.egg-info/dependency_links.txt
+rboot_libs.egg-info/entry_points.txt
+rboot_libs.egg-info/requires.txt
+rboot_libs.egg-info/top_level.txt
+rboot_libs.egg-info/zip-safe
+resource/rboot_libs

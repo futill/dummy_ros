@@ -1,0 +1,1 @@
+/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

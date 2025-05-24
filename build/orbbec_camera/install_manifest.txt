@@ -1,0 +1,7 @@
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libdepthengine.so.2.0
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libOrbbecSDK.so
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libdepthengine.so
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libob_usb.so
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libOrbbecSDK.so.1.10
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//libOrbbecSDK.so.1.10.22
+/home/futill/dummy2_hand_eye_calibration_ws/install/lib//liblive555.so

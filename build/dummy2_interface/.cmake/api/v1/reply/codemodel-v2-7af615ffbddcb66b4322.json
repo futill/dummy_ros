@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2159ecbf9a47c02f5055.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dummy2_interface__py",
+					"jsonFile" : "directory-dummy2_interface__py-Release-008537b1f4b426d00a5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dummy2_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dummy2_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dummy2_interface_egg-Release-ab2d4fa1fc117cefa7ba.json",
+					"name" : "ament_cmake_python_build_dummy2_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dummy2_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dummy2_interface-Release-ffcd2c3674bb152bad29.json",
+					"name" : "ament_cmake_python_symlink_dummy2_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface-Release-0e0a3fd322091346768a.json",
+					"name" : "dummy2_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__cpp-Release-237aa048c14272fc3341.json",
+					"name" : "dummy2_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dummy2_interface__py::@5931c0ce3452c29fb3b3",
+					"jsonFile" : "target-dummy2_interface__py-Release-5c3e5face5b1cd09e00e.json",
+					"name" : "dummy2_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_generator_c-Release-4607213937e827d1b672.json",
+					"name" : "dummy2_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_generator_py-Release-3d32271a73445878db31.json",
+					"name" : "dummy2_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_c-Release-31ec6ac784d4b94a5413.json",
+					"name" : "dummy2_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_c__pyext-Release-59964fcf6502336b653a.json",
+					"name" : "dummy2_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_cpp-Release-eda4ee057bf902cf4818.json",
+					"name" : "dummy2_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_fastrtps_c-Release-623a9cfea8576f0a649b.json",
+					"name" : "dummy2_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_fastrtps_c__pyext-Release-eb787ebf363d641f4c73.json",
+					"name" : "dummy2_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_fastrtps_cpp-Release-f80783ac495739a02eca.json",
+					"name" : "dummy2_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_introspection_c-Release-d4663ccdeb9ccc68523c.json",
+					"name" : "dummy2_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_introspection_c__pyext-Release-539eb4f0962447939a59.json",
+					"name" : "dummy2_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface__rosidl_typesupport_introspection_cpp-Release-ef5a9b8f9a8a559f3510.json",
+					"name" : "dummy2_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy2_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy2_interface_uninstall-Release-9eded18f61d65549ddc6.json",
+					"name" : "dummy2_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c9e905bfbcb6cbbd2565.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface",
+		"source" : "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

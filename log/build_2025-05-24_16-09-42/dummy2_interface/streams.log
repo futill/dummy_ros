@@ -1,0 +1,160 @@
+[0.304s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface -- -j8 -l8
+[0.707s] [  4%] Built target dummy2_interface__cpp
+[0.707s] [ 12%] Built target dummy2_interface__rosidl_generator_c
+[0.707s] [ 12%] Built target ament_cmake_python_symlink_dummy2_interface
+[0.707s] [ 23%] Built target dummy2_interface__rosidl_typesupport_fastrtps_c
+[0.707s] [ 34%] Built target dummy2_interface__rosidl_typesupport_cpp
+[0.707s] [ 44%] Built target dummy2_interface__rosidl_typesupport_introspection_c
+[0.707s] [ 55%] Built target dummy2_interface__rosidl_typesupport_fastrtps_cpp
+[0.707s] [ 65%] Built target dummy2_interface__rosidl_typesupport_introspection_cpp
+[0.707s] [ 76%] Built target dummy2_interface__rosidl_typesupport_c
+[0.708s] [ 76%] Built target dummy2_interface
+[0.708s] [ 78%] Built target dummy2_interface__py
+[0.708s] [ 87%] Built target dummy2_interface__rosidl_generator_py
+[0.708s] [ 95%] Built target dummy2_interface__rosidl_typesupport_introspection_c__pyext
+[0.708s] [ 95%] Built target dummy2_interface__rosidl_typesupport_c__pyext
+[0.708s] [100%] Built target dummy2_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.738s] running egg_info
+[0.738s] writing dummy2_interface.egg-info/PKG-INFO
+[0.739s] writing dependency_links to dummy2_interface.egg-info/dependency_links.txt
+[0.740s] writing top-level names to dummy2_interface.egg-info/top_level.txt
+[0.743s] reading manifest file 'dummy2_interface.egg-info/SOURCES.txt'
+[0.745s] writing manifest file 'dummy2_interface.egg-info/SOURCES.txt'
+[0.859s] [100%] Built target ament_cmake_python_build_dummy2_interface_egg
+[1.025s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface -- -j8 -l8
+[1.047s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface
+[1.074s] -- Install configuration: "Release"
+[1.074s] -- Execute custom install script
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/rosidl_interfaces/dummy2_interface
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/msg/rosidl_generator_c__visibility_control.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__functions.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__struct.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__type_support.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__functions.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__struct.h
+[1.074s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__type_support.h
+[1.075s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__functions.h
+[1.075s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__struct.h
+[1.075s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__type_support.h
+[1.076s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/init_can2eth.h
+[1.076s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/read_can2eth.h
+[1.076s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/write_can2eth.h
+[1.079s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/library_path.sh
+[1.080s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/library_path.dsv
+[1.081s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.081s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_fastrtps_c.h
+[1.081s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_fastrtps_c.h
+[1.081s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_fastrtps_c.h
+[1.082s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.082s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__builder.hpp
+[1.082s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__struct.hpp
+[1.082s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__traits.hpp
+[1.083s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__type_support.hpp
+[1.083s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__builder.hpp
+[1.083s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__struct.hpp
+[1.083s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__traits.hpp
+[1.083s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__type_support.hpp
+[1.084s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__builder.hpp
+[1.084s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__struct.hpp
+[1.084s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__traits.hpp
+[1.085s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__type_support.hpp
+[1.093s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/init_can2eth.hpp
+[1.093s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/read_can2eth.hpp
+[1.093s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/write_can2eth.hpp
+[1.093s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_introspection_c.h
+[1.094s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_introspection_c.h
+[1.095s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_introspection_c.h
+[1.095s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/pythonpath.sh
+[1.096s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/pythonpath.dsv
+[1.097s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[1.097s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.098s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.098s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/top_level.txt
+[1.098s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/__init__.py
+[1.099s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_c.c
+[1.099s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.099s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.100s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.100s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.101s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.103s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/libdummy2_interface__rosidl_generator_py.so
+[1.103s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/__init__.py
+[1.103s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_init_can2eth.py
+[1.104s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_init_can2eth_s.c
+[1.104s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_read_can2eth.py
+[1.104s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_read_can2eth_s.c
+[1.104s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_write_can2eth.py
+[1.104s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_write_can2eth_s.c
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/InitCan2eth.idl
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/WriteCan2eth.idl
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/ReadCan2eth.idl
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/InitCan2eth.srv
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/InitCan2eth_Request.msg
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/InitCan2eth_Response.msg
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/WriteCan2eth.srv
+[1.105s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/WriteCan2eth_Request.msg
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/WriteCan2eth_Response.msg
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/ReadCan2eth.srv
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/ReadCan2eth_Request.msg
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/srv/ReadCan2eth_Response.msg
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/package_run_dependencies/dummy2_interface
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/parent_prefix_path/dummy2_interface
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/ament_prefix_path.sh
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/ament_prefix_path.dsv
+[1.107s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/path.sh
+[1.108s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/environment/path.dsv
+[1.108s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/local_setup.bash
+[1.112s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/local_setup.sh
+[1.113s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/local_setup.zsh
+[1.113s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/local_setup.dsv
+[1.113s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/package.dsv
+[1.121s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages/dummy2_interface
+[1.121s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/rosidl_cmake-extras.cmake
+[1.121s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.121s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.123s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.123s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.123s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.123s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.123s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interfaceConfig.cmake
+[1.124s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interfaceConfig-version.cmake
+[1.124s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/package.xml
+[1.124s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_generator_c.so
+[1.124s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_c.so
+[1.125s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.125s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_introspection_c.so
+[1.125s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_c.so
+[1.125s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_introspection_cpp.so
+[1.125s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_typesupport_cpp.so
+[1.128s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface'...
+[1.129s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/dummy2_interface/srv'...
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_interface__rosidl_generator_py.so
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cExport.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cExport-release.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cppExport.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.129s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cExport.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cExport-release.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cppExport.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cppExport-release.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_pyExport.cmake
+[1.130s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_pyExport-release.cmake
+[1.246s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface

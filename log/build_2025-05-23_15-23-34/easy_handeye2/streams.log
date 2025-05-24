@@ -1,0 +1,36 @@
+[2.203s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2': AMENT_PREFIX_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install LD_LIBRARY_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/build --no-deps symlink_data
+[2.613s] running develop
+[3.056s] running egg_info
+[3.056s] creating easy_handeye2.egg-info
+[3.057s] writing easy_handeye2.egg-info/PKG-INFO
+[3.061s] writing dependency_links to easy_handeye2.egg-info/dependency_links.txt
+[3.061s] writing entry points to easy_handeye2.egg-info/entry_points.txt
+[3.061s] writing requirements to easy_handeye2.egg-info/requires.txt
+[3.061s] writing top-level names to easy_handeye2.egg-info/top_level.txt
+[3.061s] writing manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[3.068s] reading manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[3.072s] writing manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[3.151s] running build_ext
+[3.151s] Creating /home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages/easy-handeye2.egg-link (link to .)
+[3.157s] Installing handeye_calibration_commander script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.162s] Installing handeye_publisher script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.162s] Installing handeye_server script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.163s] Installing handeye_server_robot script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.166s] Installing rqt_calibrator.py script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.171s] Installing rqt_evaluator.py script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[3.171s] 
+[3.174s] Installed /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2
+[3.174s] running symlink_data
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/resource/easy_handeye2 -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages
+[3.175s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/resource
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/resource/rqt_handeye.ui -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/resource
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/resource/rqt_handeye_evaluator.ui -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/resource
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/resource/rqt_handeye_info.ui -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/resource
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/package.xml -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/plugin_evaluator.xml -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/plugin_calibrator.xml -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2
+[3.175s] creating /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/launch
+[3.175s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/launch/calibrate.launch.py -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/launch
+[3.176s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/launch/publish.launch.py -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/launch
+[3.176s] symbolically linking /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/launch/evaluate.launch.py -> /home/futill/dummy2_hand_eye_calibration_ws/install/share/easy_handeye2/launch
+[3.283s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install LD_LIBRARY_PATH=/home/futill/dummy2_hand_eye_calibration_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/build --no-deps symlink_data

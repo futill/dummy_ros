@@ -1,0 +1,22 @@
+[1.192s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2': PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco:/home/futill/dummy2_hand_eye_calibration_ws/build/rboot_libs:/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2:/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_can2eth:/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages:/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description:/home/futill/targer_ws/install/my_robot_pkg/lib/python3.10/site-packages:/home/futill/targer_ws/install/my_robot_pkg_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/build --no-deps symlink_data
+[1.458s] running develop
+[1.659s] running egg_info
+[1.660s] writing easy_handeye2.egg-info/PKG-INFO
+[1.660s] writing dependency_links to easy_handeye2.egg-info/dependency_links.txt
+[1.660s] writing entry points to easy_handeye2.egg-info/entry_points.txt
+[1.660s] writing requirements to easy_handeye2.egg-info/requires.txt
+[1.660s] writing top-level names to easy_handeye2.egg-info/top_level.txt
+[1.662s] reading manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[1.663s] writing manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[1.698s] running build_ext
+[1.698s] Creating /home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages/easy-handeye2.egg-link (link to .)
+[1.701s] Installing handeye_calibration_commander script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.701s] Installing handeye_publisher script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.702s] Installing handeye_server script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.702s] Installing handeye_server_robot script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.702s] Installing rqt_calibrator.py script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.703s] Installing rqt_evaluator.py script to /home/futill/dummy2_hand_eye_calibration_ws/install/lib/easy_handeye2
+[1.703s] 
+[1.704s] Installed /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2
+[1.704s] running symlink_data
+[1.738s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2' returned '0': PYTHONPATH=/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/install/lib/python3.10/site-packages:/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco:/home/futill/dummy2_hand_eye_calibration_ws/build/rboot_libs:/home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2:/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_can2eth:/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages:/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_description:/home/futill/targer_ws/install/my_robot_pkg/lib/python3.10/site-packages:/home/futill/targer_ws/install/my_robot_pkg_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy2_hand_eye_calibration_ws/build/easy_handeye2/build --no-deps symlink_data

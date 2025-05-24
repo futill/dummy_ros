@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dummy2_interface/srv/InitCan2eth.srv
+// generated code does not contain a copyright notice
+
+
+module dummy2_interface {
+  module srv {
+    struct InitCan2eth_Request {
+      string action;
+    };
+    struct InitCan2eth_Response {
+      boolean success;
+    };
+  };
+};

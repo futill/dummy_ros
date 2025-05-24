@@ -1,0 +1,4 @@
+[console_scripts]
+arm_joy = dummy2_can2eth.arm_joy:main
+dummy2_can2eth_server = dummy2_can2eth.dummy2_can2eth_server:main
+

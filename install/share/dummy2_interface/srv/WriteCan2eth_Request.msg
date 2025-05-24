@@ -1,0 +1,1 @@
+/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_cmake/srv/WriteCan2eth_Request.msg

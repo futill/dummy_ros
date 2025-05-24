@@ -1,0 +1,26 @@
+[0.664s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw -- -j8 -l8
+[0.800s] [35m[1mConsolidate compiler generated dependencies of target dummy2_hardware[0m
+[0.894s] [100%] Built target dummy2_hardware
+[0.912s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw -- -j8 -l8
+[0.916s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw
+[0.965s] -- Install configuration: "Release"
+[0.974s] -- Execute custom install script
+[0.975s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw//dummy2_hardware.xml
+[0.975s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libdummy2_hardware.so
+[0.976s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/package_run_dependencies/dummy2_hw
+[0.976s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/parent_prefix_path/dummy2_hw
+[0.978s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/environment/ament_prefix_path.sh
+[0.978s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/environment/ament_prefix_path.dsv
+[0.978s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/environment/path.sh
+[0.978s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/environment/path.dsv
+[0.978s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/local_setup.bash
+[0.979s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/local_setup.sh
+[0.979s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/local_setup.zsh
+[0.979s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/local_setup.dsv
+[0.979s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/package.dsv
+[1.085s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages/dummy2_hw
+[1.102s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dummy2_hw
+[1.102s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/cmake/dummy2_hwConfig.cmake
+[1.103s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/cmake/dummy2_hwConfig-version.cmake
+[1.106s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/dummy2_hw/package.xml
+[1.112s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw

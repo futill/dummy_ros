@@ -1,0 +1,15 @@
+source;share/rboot_libs/hook/cmake_prefix_path.ps1
+source;share/rboot_libs/hook/cmake_prefix_path.dsv
+source;share/rboot_libs/hook/cmake_prefix_path.sh
+source;share/rboot_libs/hook/ld_library_path_lib.ps1
+source;share/rboot_libs/hook/ld_library_path_lib.dsv
+source;share/rboot_libs/hook/ld_library_path_lib.sh
+source;share/rboot_libs/hook/pythonpath.ps1
+source;share/rboot_libs/hook/pythonpath.dsv
+source;share/rboot_libs/hook/pythonpath.sh
+source;share/rboot_libs/hook/ament_prefix_path.ps1
+source;share/rboot_libs/hook/ament_prefix_path.dsv
+source;share/rboot_libs/hook/ament_prefix_path.sh
+source;../build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.ps1
+source;../build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.dsv
+source;../build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.sh

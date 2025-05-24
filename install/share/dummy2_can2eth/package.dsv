@@ -1,0 +1,15 @@
+source;share/dummy2_can2eth/hook/cmake_prefix_path.ps1
+source;share/dummy2_can2eth/hook/cmake_prefix_path.dsv
+source;share/dummy2_can2eth/hook/cmake_prefix_path.sh
+source;share/dummy2_can2eth/hook/ld_library_path_lib.ps1
+source;share/dummy2_can2eth/hook/ld_library_path_lib.dsv
+source;share/dummy2_can2eth/hook/ld_library_path_lib.sh
+source;share/dummy2_can2eth/hook/pythonpath.ps1
+source;share/dummy2_can2eth/hook/pythonpath.dsv
+source;share/dummy2_can2eth/hook/pythonpath.sh
+source;share/dummy2_can2eth/hook/ament_prefix_path.ps1
+source;share/dummy2_can2eth/hook/ament_prefix_path.dsv
+source;share/dummy2_can2eth/hook/ament_prefix_path.sh
+source;../build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.ps1
+source;../build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.dsv
+source;../build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.sh

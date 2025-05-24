@@ -1,0 +1,5 @@
+
+# Result definition
+bool success
+float64[] pos_commands
+float64[] vel_commands

@@ -1,0 +1,60 @@
+[0.038s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy2_hand_eye_calibration_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy2_hand_eye_calibration_ws/install
+[0.405s] -- The C compiler identification is GNU 11.4.0
+[0.405s] -- The CXX compiler identification is GNU 11.4.0
+[0.406s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.406s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.802s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.926s] -- Configuring done
+[0.929s] -- Generating done
+[0.931s] -- Build files have been written to: /home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description
+[0.991s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy2_hand_eye_calibration_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy2_hand_eye_calibration_ws/install
+[0.991s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description -- -j8 -l8
+[1.038s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description -- -j8 -l8
+[1.047s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description
+[1.728s] -- Install configuration: "Release"
+[1.728s] -- Execute custom install script
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/launch/launch_utils.py
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/launch/view_model.launch.py
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/AstraPlus.stl
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL
+[1.728s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_infra2_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_infra2_optical_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_infra_1_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_infra_1_optical_frame.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/meshes/gemini335_336/camera_link.STL
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/urdf/_gemini_335_336.urdf.xacro
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/urdf/femto_bolt.urdf.xacro
+[1.729s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/urdf/test_gemini_335.urdf.xarco
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/urdf/test_gemini_336.urdf.xarco
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/rviz/urdf.rviz
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/environment/ament_prefix_path.sh
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/environment/ament_prefix_path.dsv
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/environment/path.sh
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/environment/path.dsv
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/local_setup.bash
+[1.730s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/local_setup.sh
+[1.748s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/local_setup.zsh
+[1.766s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/local_setup.dsv
+[1.794s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/package.dsv
+[1.816s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages/orbbec_description
+[1.839s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[1.863s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[1.887s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/orbbec_description/package.xml
+[1.936s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_description

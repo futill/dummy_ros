@@ -1,0 +1,4 @@
+source;share/dummy2_hand_eye_calibration/local_setup.bash
+source;share/dummy2_hand_eye_calibration/local_setup.dsv
+source;share/dummy2_hand_eye_calibration/local_setup.sh
+source;share/dummy2_hand_eye_calibration/local_setup.zsh

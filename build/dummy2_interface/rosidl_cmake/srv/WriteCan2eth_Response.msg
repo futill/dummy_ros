@@ -1,0 +1,3 @@
+
+# Result definition
+bool success

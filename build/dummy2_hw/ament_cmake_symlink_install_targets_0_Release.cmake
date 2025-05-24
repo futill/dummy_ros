@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw/libdummy2_hardware.so" "TARGETS" "dummy2_hardware" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

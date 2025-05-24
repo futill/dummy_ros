@@ -1,0 +1,10 @@
+setup.py
+dummy2_interface/__init__.py
+dummy2_interface.egg-info/PKG-INFO
+dummy2_interface.egg-info/SOURCES.txt
+dummy2_interface.egg-info/dependency_links.txt
+dummy2_interface.egg-info/top_level.txt
+dummy2_interface/srv/__init__.py
+dummy2_interface/srv/_init_can2eth.py
+dummy2_interface/srv/_read_can2eth.py
+dummy2_interface/srv/_write_can2eth.py

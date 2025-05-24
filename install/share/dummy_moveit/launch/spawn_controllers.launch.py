@@ -1,0 +1,1 @@
+/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit/launch/spawn_controllers.launch.py

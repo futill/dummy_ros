@@ -1,0 +1,120 @@
+[0.614s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces -- -j8 -l8
+[0.700s] [  3%] Built target ros2_aruco_interfaces__cpp
+[0.715s] [ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[0.739s] [ 12%] Built target ament_cmake_python_symlink_ros2_aruco_interfaces
+[0.761s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.762s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[0.765s] [ 41%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[0.777s] [ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[0.777s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[0.777s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[0.814s] [ 70%] Built target ros2_aruco_interfaces
+[0.832s] [ 74%] Built target ros2_aruco_interfaces__py
+[0.864s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[0.904s] [ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.916s] [ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.924s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[1.064s] running egg_info
+[1.064s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[1.064s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[1.065s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[1.065s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[1.066s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[1.101s] [100%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[1.436s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces -- -j8 -l8
+[1.436s] Invoking command in '/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces
+[1.456s] -- Install configuration: "Release"
+[1.456s] -- Execute custom install script
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.456s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/library_path.sh
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/library_path.dsv
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/pythonpath.sh
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.457s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.458s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.465s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.465s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.465s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/path.sh
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/environment/path.dsv
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/local_setup.bash
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/local_setup.sh
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/local_setup.zsh
+[1.466s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/local_setup.dsv
+[1.466s] -- Symlinking: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/package.dsv
+[1.480s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+[1.481s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+[1.482s] -- Up-to-date symlink: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/package.xml
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.482s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+[1.518s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+[1.519s] Listing '/home/futill/dummy2_hand_eye_calibration_ws/install/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+[1.530s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+[1.530s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-release.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-release.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.534s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.535s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[1.535s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-release.cmake
+[1.535s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+[1.535s] -- Up-to-date: /home/futill/dummy2_hand_eye_calibration_ws/install/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-release.cmake
+[2.062s] Invoked command in '/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/futill/targer_ws/install/my_robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces
