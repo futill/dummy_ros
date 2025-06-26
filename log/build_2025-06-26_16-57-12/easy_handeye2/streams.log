@@ -1,0 +1,36 @@
+[0.493s] Invoking command in '/home/futill/dummy_ros/build/easy_handeye2': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/easy_handeye2/build --no-deps symlink_data
+[0.688s] running develop
+[0.818s] running egg_info
+[0.818s] creating easy_handeye2.egg-info
+[0.818s] writing easy_handeye2.egg-info/PKG-INFO
+[0.818s] writing dependency_links to easy_handeye2.egg-info/dependency_links.txt
+[0.818s] writing entry points to easy_handeye2.egg-info/entry_points.txt
+[0.818s] writing requirements to easy_handeye2.egg-info/requires.txt
+[0.818s] writing top-level names to easy_handeye2.egg-info/top_level.txt
+[0.819s] writing manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[0.820s] reading manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'easy_handeye2.egg-info/SOURCES.txt'
+[0.822s] running build_ext
+[0.822s] Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/easy-handeye2.egg-link (link to .)
+[0.822s] Installing handeye_calibration_commander script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.822s] Installing handeye_publisher script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.823s] Installing handeye_server script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.823s] Installing handeye_server_robot script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.823s] Installing rqt_calibrator.py script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.824s] Installing rqt_evaluator.py script to /home/futill/dummy_ros/install/lib/easy_handeye2
+[0.824s] 
+[0.824s] Installed /home/futill/dummy_ros/build/easy_handeye2
+[0.824s] running symlink_data
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/resource/easy_handeye2 -> /home/futill/dummy_ros/install/share/ament_index/resource_index/packages
+[0.824s] creating /home/futill/dummy_ros/install/share/easy_handeye2/resource
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/resource/rqt_handeye_info.ui -> /home/futill/dummy_ros/install/share/easy_handeye2/resource
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/resource/rqt_handeye_evaluator.ui -> /home/futill/dummy_ros/install/share/easy_handeye2/resource
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/resource/rqt_handeye.ui -> /home/futill/dummy_ros/install/share/easy_handeye2/resource
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/package.xml -> /home/futill/dummy_ros/install/share/easy_handeye2
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/plugin_evaluator.xml -> /home/futill/dummy_ros/install/share/easy_handeye2
+[0.824s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/plugin_calibrator.xml -> /home/futill/dummy_ros/install/share/easy_handeye2
+[0.825s] creating /home/futill/dummy_ros/install/share/easy_handeye2/launch
+[0.825s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/launch/evaluate.launch.py -> /home/futill/dummy_ros/install/share/easy_handeye2/launch
+[0.825s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/launch/calibrate.launch.py -> /home/futill/dummy_ros/install/share/easy_handeye2/launch
+[0.825s] symbolically linking /home/futill/dummy_ros/build/easy_handeye2/launch/publish.launch.py -> /home/futill/dummy_ros/install/share/easy_handeye2/launch
+[0.846s] Invoked command in '/home/futill/dummy_ros/build/easy_handeye2' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/easy_handeye2/build --no-deps symlink_data

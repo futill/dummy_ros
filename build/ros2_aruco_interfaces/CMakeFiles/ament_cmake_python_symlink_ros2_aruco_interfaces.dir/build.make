@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/ros2_aruco_interfaces
 
 # Utility rule file for ament_cmake_python_symlink_ros2_aruco_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/compiler
 include CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces:
-	/usr/bin/cmake -E create_symlink /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces
+	/usr/bin/cmake -E create_symlink /home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces
 
 ament_cmake_python_symlink_ros2_aruco_interfaces: CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces
 ament_cmake_python_symlink_ros2_aruco_interfaces: CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces/CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_ros2_aruco_interfaces.dir/depend
 

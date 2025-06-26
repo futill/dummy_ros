@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hw
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy2_hw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy2_hw
 
 # Utility rule file for dummy2_hw_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dummy2_hw_uninstall.dir/compiler_depend.make
 include CMakeFiles/dummy2_hw_uninstall.dir/progress.make
 
 CMakeFiles/dummy2_hw_uninstall:
-	/usr/bin/cmake -P /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/futill/dummy_ros/build/dummy2_hw/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dummy2_hw_uninstall: CMakeFiles/dummy2_hw_uninstall
 dummy2_hw_uninstall: CMakeFiles/dummy2_hw_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dummy2_hw_uninstall.dir/clean:
 .PHONY : CMakeFiles/dummy2_hw_uninstall.dir/clean
 
 CMakeFiles/dummy2_hw_uninstall.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hw /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hw /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw/CMakeFiles/dummy2_hw_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/dummy2_hw && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/dummy2_hw /home/futill/dummy_ros/src/dummy2_hw /home/futill/dummy_ros/build/dummy2_hw /home/futill/dummy_ros/build/dummy2_hw /home/futill/dummy_ros/build/dummy2_hw/CMakeFiles/dummy2_hw_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dummy2_hw_uninstall.dir/depend
 

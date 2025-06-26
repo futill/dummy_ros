@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration/scripts/follow_aruco_marker.py
+/home/futill/dummy_ros/src/dummy2_hand_eye_calibration/scripts/follow_aruco_marker.py

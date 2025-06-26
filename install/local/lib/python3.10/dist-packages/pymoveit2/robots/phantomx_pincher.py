@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/pymoveit2/robots/phantomx_pincher.py
+/home/futill/dummy_ros/src/pymoveit2/pymoveit2/robots/phantomx_pincher.py

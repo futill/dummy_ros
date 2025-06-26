@@ -1,0 +1,18 @@
+[0.589s] Invoking command in '/home/futill/dummy_ros/build/dummy2_can2eth': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2_can2eth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2_can2eth/build --no-deps symlink_data
+[0.794s] running develop
+[0.929s] running egg_info
+[0.930s] writing dummy2_can2eth.egg-info/PKG-INFO
+[0.930s] writing dependency_links to dummy2_can2eth.egg-info/dependency_links.txt
+[0.930s] writing entry points to dummy2_can2eth.egg-info/entry_points.txt
+[0.930s] writing requirements to dummy2_can2eth.egg-info/requires.txt
+[0.930s] writing top-level names to dummy2_can2eth.egg-info/top_level.txt
+[0.932s] reading manifest file 'dummy2_can2eth.egg-info/SOURCES.txt'
+[0.932s] writing manifest file 'dummy2_can2eth.egg-info/SOURCES.txt'
+[0.933s] running build_ext
+[0.934s] Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/dummy2-can2eth.egg-link (link to .)
+[0.934s] Installing arm_joy script to /home/futill/dummy_ros/install/lib/dummy2_can2eth
+[0.934s] Installing dummy2_can2eth_server script to /home/futill/dummy_ros/install/lib/dummy2_can2eth
+[0.935s] 
+[0.935s] Installed /home/futill/dummy_ros/build/dummy2_can2eth
+[0.935s] running symlink_data
+[0.960s] Invoked command in '/home/futill/dummy_ros/build/dummy2_can2eth' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2_can2eth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2_can2eth/build --no-deps symlink_data

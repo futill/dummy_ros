@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/futill/dummy2_hand_eye_calibration_ws/install/${destination}")
+      set(destination "/home/futill/dummy_ros/install/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,59 +310,59 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pymoveit2/environment")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pymoveit2/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pymoveit2/environment")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pymoveit2/environment")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/pymoveit2" DIRECTORY "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_python/pymoveit2/pymoveit2.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/pymoveit2/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/pymoveit2/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/futill/dummy_ros/src/pymoveit2/pymoveit2/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/pymoveit2" DIRECTORY "/home/futill/dummy_ros/src/pymoveit2/pymoveit2/" "DESTINATION" "local/lib/python3.10/dist-packages/pymoveit2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install(PROGRAMS "examples/ex_allow_collisions.py" "examples/ex_clear_planning_scene.py" "examples/ex_collision_mesh.py" "examples/ex_collision_primitive.py" "examples/ex_fk.py" "examples/ex_gripper.py" "examples/ex_ik.py" "examples/ex_joint_goal.py" "examples/ex_orientation_path_constraint.py" "examples/ex_pose_goal.py" "examples/ex_servo.py" "DESTINATION" "lib/pymoveit2")
-ament_cmake_symlink_install_programs("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" PROGRAMS "examples/ex_allow_collisions.py" "examples/ex_clear_planning_scene.py" "examples/ex_collision_mesh.py" "examples/ex_collision_primitive.py" "examples/ex_fk.py" "examples/ex_gripper.py" "examples/ex_ik.py" "examples/ex_joint_goal.py" "examples/ex_orientation_path_constraint.py" "examples/ex_pose_goal.py" "examples/ex_servo.py" "DESTINATION" "lib/pymoveit2")
+ament_cmake_symlink_install_programs("/home/futill/dummy_ros/src/pymoveit2" PROGRAMS "examples/ex_allow_collisions.py" "examples/ex_clear_planning_scene.py" "examples/ex_collision_mesh.py" "examples/ex_collision_primitive.py" "examples/ex_fk.py" "examples/ex_gripper.py" "examples/ex_ik.py" "examples/ex_joint_goal.py" "examples/ex_orientation_path_constraint.py" "examples/ex_pose_goal.py" "examples/ex_servo.py" "DESTINATION" "lib/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pymoveit2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pymoveit2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pymoveit2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pymoveit2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pymoveit2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pymoveit2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pymoveit2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pymoveit2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pymoveit2/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pymoveit2/environment")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pymoveit2/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pymoveit2/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pymoveit2/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pymoveit2/environment")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pymoveit2/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pymoveit2/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pymoveit2")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/packages/pymoveit2" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/packages/pymoveit2" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/packages/pymoveit2" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_index/share/ament_index/resource_index/packages/pymoveit2" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_core/pymoveit2Config.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_core/pymoveit2Config-version.cmake" "DESTINATION" "share/pymoveit2/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_core/pymoveit2Config.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_core/pymoveit2Config-version.cmake" "DESTINATION" "share/pymoveit2/cmake")
+# install(FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_core/pymoveit2Config.cmake" "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_core/pymoveit2Config-version.cmake" "DESTINATION" "share/pymoveit2/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_core/pymoveit2Config.cmake" "/home/futill/dummy_ros/build/pymoveit2/ament_cmake_core/pymoveit2Config-version.cmake" "DESTINATION" "share/pymoveit2/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/package.xml" "DESTINATION" "share/pymoveit2")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/package.xml" "DESTINATION" "share/pymoveit2")
+# install(FILES "/home/futill/dummy_ros/src/pymoveit2/package.xml" "DESTINATION" "share/pymoveit2")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/pymoveit2" FILES "/home/futill/dummy_ros/src/pymoveit2/package.xml" "DESTINATION" "share/pymoveit2")

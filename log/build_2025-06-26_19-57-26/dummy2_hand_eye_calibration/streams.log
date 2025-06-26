@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hand_eye_calibration -- -j16 -l16
+[0.056s] Invoked command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hand_eye_calibration -- -j16 -l16
+[0.057s] Invoking command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hand_eye_calibration
+[0.064s] -- Install configuration: "Release"
+[0.064s] -- Execute custom install script
+[0.064s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/launch/calibrate.launch.py
+[0.064s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/launch/validate.launch.py
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/config/aruco_parameters.yaml
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/rviz/moveit_with_camera.rviz
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/rviz/validate.rviz
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/lib/dummy2_hand_eye_calibration/calibration_aruco_publisher.py
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/lib/dummy2_hand_eye_calibration/follow_aruco_marker.py
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/lib/dummy2_hand_eye_calibration/handeye_publisher.py
+[0.065s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/dummy2_hand_eye_calibration
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/dummy2_hand_eye_calibration
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/environment/path.sh
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/environment/path.dsv
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/local_setup.bash
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/local_setup.sh
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/local_setup.zsh
+[0.066s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/local_setup.dsv
+[0.067s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.dsv
+[0.075s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/dummy2_hand_eye_calibration
+[0.075s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/cmake/dummy2_hand_eye_calibrationConfig.cmake
+[0.075s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/cmake/dummy2_hand_eye_calibrationConfig-version.cmake
+[0.075s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.xml
+[0.078s] Invoked command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hand_eye_calibration

@@ -1,0 +1,1083 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x764bb4b0d960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764bb4c52da0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764bb4c52da0>>)
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.210s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/futill/dummy_ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_description) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2-gripperv3_description' with type 'ros.ament_python' and name 'dummy2-gripperv3_description'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2-gripperv3_moveit_config) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2-gripperv3_moveit_config' with type 'ros.ament_cmake' and name 'dummy2-gripperv3_moveit_config'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_can2eth) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2_can2eth' with type 'ros.ament_python' and name 'dummy2_can2eth'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hand_eye_calibration) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2_hand_eye_calibration' with type 'ros.ament_cmake' and name 'dummy2_hand_eye_calibration'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_hw) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2_hw' with type 'ros.ament_cmake' and name 'dummy2_hw'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy2_interface) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy2_interface' with type 'ros.ament_cmake' and name 'dummy2_interface'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy_moveit) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy_moveit' with type 'ros.ament_cmake' and name 'dummy_moveit'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2' with type 'ros.ament_python' and name 'easy_handeye2'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2_msgs' with type 'ros.ament_cmake' and name 'easy_handeye2_msgs'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rboot_libs) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rboot_libs' with type 'ros.ament_python' and name 'rboot_libs'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/futill/dummy_ros/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/humble
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2-gripperv3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2-gripperv3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2-gripperv3_description', 'symlink_install': True, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2_hw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2_hw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2_hw', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2_interface', 'symlink_install': True, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'dummy_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'dummy_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'easy_handeye2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/easy_handeye2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/pymoveit2', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'rboot_libs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'rboot_libs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/rboot_libs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/rboot_libs', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2-gripperv3_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2-gripperv3_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_can2eth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2_can2eth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2_can2eth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2_can2eth', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'easy_handeye2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/easy_handeye2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'dummy2_hand_eye_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'dummy2_hand_eye_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/futill/dummy_ros/install', 'merge_install': True, 'path': '/home/futill/dummy_ros/src/dummy2_hand_eye_calibration', 'symlink_install': True, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2_msgs' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2_msgs'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2-gripperv3_description' with build type 'ament_python'
+[0.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_description', 'ament_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ament_prefix_path.ps1'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ament_prefix_path.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ament_prefix_path.sh'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2_interface' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/dummy2_interface'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/pymoveit2' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/pymoveit2'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2_hw' with build type 'ament_cmake'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/dummy2_hw'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/dummy_moveit' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/dummy_moveit'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/futill/dummy_ros/src/rboot_libs' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('rboot_libs', 'ament_prefix_path')
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/ament_prefix_path.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/rboot_libs/hook/ament_prefix_path.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/ament_prefix_path.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/easy_handeye2_msgs -- -j16 -l16
+[0.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/futill/dummy_ros/src/dummy2-gripperv3_description'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_interface -- -j16 -l16
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+[0.797s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco'
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/ros2_aruco_interfaces -- -j16 -l16
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hw -- -j16 -l16
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy_moveit -- -j16 -l16
+[1.037s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/futill/dummy_ros/src/rboot_libs'
+[1.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/easy_handeye2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/easy_handeye2_msgs -- -j16 -l16
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/easy_handeye2_msgs
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hw -- -j16 -l16
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hw
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy_moveit -- -j16 -l16
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy_moveit
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_interface -- -j16 -l16
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_interface
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_hw)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hw
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'cmake_prefix_path')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'ld_library_path_lib')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.sh'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_hw.pc'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'pythonpath')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.zsh'
+[1.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_hw)
+[1.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_hw)
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/cmake_prefix_path.sh'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'ld_library_path_lib')
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/ld_library_path_lib.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_hw.pc'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hw', 'pythonpath')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hw/hook/pythonpath.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_hw/package.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.sh'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.bash'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hw/package.zsh'
+[1.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_hw)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_moveit)
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy_moveit
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'cmake_prefix_path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'ld_library_path_lib')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy_moveit.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'pythonpath')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.sh'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/package.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.sh'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.bash'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.zsh'
+[1.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy_moveit)
+[1.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy_moveit)
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'cmake_prefix_path')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/cmake_prefix_path.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'ld_library_path_lib')
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/ld_library_path_lib.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy_moveit.pc'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy_moveit', 'pythonpath')
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy_moveit/hook/pythonpath.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy_moveit/package.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy_moveit/package.zsh'
+[1.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy_moveit)
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/ros2_aruco_interfaces -- -j16 -l16
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/ros2_aruco_interfaces
+[1.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'ld_library_path_lib')
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.sh'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/pymoveit2.pc'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'pythonpath')
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.sh'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/pymoveit2/package.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/pymoveit2)
+[1.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'ld_library_path_lib')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/ld_library_path_lib.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/pymoveit2.pc'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'pythonpath')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/pymoveit2/hook/pythonpath.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/pymoveit2/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/pymoveit2/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/pymoveit2)
+[1.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_interface)
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_interface
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'ld_library_path_lib')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.sh'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_interface.pc'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'pythonpath')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.bash'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.zsh'
+[1.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_interface)
+[1.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_interface)
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'ld_library_path_lib')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/ld_library_path_lib.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_interface.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_interface', 'pythonpath')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_interface/hook/pythonpath.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_interface/package.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.bash'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_interface/package.zsh'
+[1.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_interface)
+[1.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(easy_handeye2_msgs)
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/easy_handeye2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/easy_handeye2_msgs
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'cmake_prefix_path')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.sh'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'ld_library_path_lib')
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.sh'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/easy_handeye2_msgs.pc'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'pythonpath')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.zsh'
+[1.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/easy_handeye2_msgs)
+[1.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(easy_handeye2_msgs)
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'cmake_prefix_path')
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/cmake_prefix_path.sh'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'ld_library_path_lib')
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/ld_library_path_lib.sh'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/easy_handeye2_msgs.pc'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2_msgs', 'pythonpath')
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.ps1'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.dsv'
+[1.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/hook/pythonpath.sh'
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.sh'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2_msgs/package.zsh'
+[1.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/easy_handeye2_msgs)
+[1.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2' with build type 'ament_python'
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2', 'ament_prefix_path')
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ament_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ament_prefix_path.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ament_prefix_path.sh'
+[1.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2_can2eth' with build type 'ament_python'
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_can2eth', 'ament_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ament_prefix_path.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ament_prefix_path.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ament_prefix_path.sh'
+[1.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2'
+[1.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/ros2_aruco_interfaces
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.sh'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.bash'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.zsh'
+[1.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[1.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.bash'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco_interfaces/package.zsh'
+[1.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.711s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/futill/dummy_ros/src/dummy2_can2eth'
+[1.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/ros2_aruco': PYTHONPATH=/home/futill/dummy_ros/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/ros2_aruco/build --no-deps symlink_data
+[1.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_description': PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2-gripperv3_description/build --no-deps symlink_data
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/rboot_libs': PYTHONPATH=/home/futill/dummy_ros/build/rboot_libs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/rboot_libs/build --no-deps symlink_data
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/easy_handeye2': PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/easy_handeye2/build --no-deps symlink_data
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_can2eth': PYTHONPATH=/home/futill/dummy_ros/build/dummy2_can2eth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2_can2eth/build --no-deps symlink_data
+[2.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath_develop')
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.ps1'
+[2.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/ros2_aruco' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/ros2_aruco/build --no-deps symlink_data
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.sh'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'cmake_prefix_path')
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/cmake_prefix_path.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco/hook/cmake_prefix_path.dsv'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/cmake_prefix_path.sh'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ld_library_path_lib')
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ld_library_path_lib.ps1'
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ld_library_path_lib.dsv'
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/ld_library_path_lib.sh'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/ros2_aruco.pc'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/pythonpath.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/ros2_aruco/hook/pythonpath.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/ros2_aruco/hook/pythonpath.sh'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco/package.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/ros2_aruco/package.dsv'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco/package.sh'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco/package.bash'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/ros2_aruco/package.zsh'
+[2.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/ros2_aruco)
+[2.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_description', 'pythonpath_develop')
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/dummy2-gripperv3_description/share/dummy2-gripperv3_description/hook/pythonpath_develop.ps1'
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_description' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2-gripperv3_description/build --no-deps symlink_data
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/build/dummy2-gripperv3_description/share/dummy2-gripperv3_description/hook/pythonpath_develop.dsv'
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/dummy2-gripperv3_description/share/dummy2-gripperv3_description/hook/pythonpath_develop.sh'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_description', 'cmake_prefix_path')
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/cmake_prefix_path.ps1'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/cmake_prefix_path.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/cmake_prefix_path.sh'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_description', 'ld_library_path_lib')
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ld_library_path_lib.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ld_library_path_lib.dsv'
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/ld_library_path_lib.sh'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2-gripperv3_description.pc'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_description', 'pythonpath')
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/pythonpath.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/pythonpath.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/hook/pythonpath.sh'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2-gripperv3_description)
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/package.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/package.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/package.sh'
+[2.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/package.bash'
+[2.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_description/package.zsh'
+[2.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2-gripperv3_description)
+[2.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config' with build type 'ament_cmake'
+[2.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config'
+[2.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('rboot_libs', 'pythonpath_develop')
+[2.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/rboot_libs' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/rboot_libs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/rboot_libs/build --no-deps symlink_data
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/rboot_libs/share/rboot_libs/hook/pythonpath_develop.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('rboot_libs', 'cmake_prefix_path')
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/cmake_prefix_path.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/rboot_libs/hook/cmake_prefix_path.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/cmake_prefix_path.sh'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('rboot_libs', 'ld_library_path_lib')
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/ld_library_path_lib.ps1'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/rboot_libs/hook/ld_library_path_lib.dsv'
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/ld_library_path_lib.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/rboot_libs.pc'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('rboot_libs', 'pythonpath')
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/pythonpath.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/rboot_libs/hook/pythonpath.dsv'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/rboot_libs/hook/pythonpath.sh'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rboot_libs)
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/rboot_libs/package.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/rboot_libs/package.dsv'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/rboot_libs/package.sh'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/rboot_libs/package.bash'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/rboot_libs/package.zsh'
+[2.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/rboot_libs)
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config -- -j16 -l16
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config -- -j16 -l16
+[2.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config
+[2.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2-gripperv3_moveit_config)
+[2.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'cmake_prefix_path')
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.ps1'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.dsv'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.sh'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'ld_library_path_lib')
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.dsv'
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.sh'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2-gripperv3_moveit_config.pc'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'pythonpath')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.dsv'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.sh'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.ps1'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.sh'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.bash'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.zsh'
+[2.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2-gripperv3_moveit_config)
+[2.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2-gripperv3_moveit_config)
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'cmake_prefix_path')
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/cmake_prefix_path.sh'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'ld_library_path_lib')
+[2.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.dsv'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/ld_library_path_lib.sh'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2-gripperv3_moveit_config.pc'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2-gripperv3_moveit_config', 'pythonpath')
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.ps1'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/hook/pythonpath.sh'
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.ps1'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.dsv'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.sh'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.bash'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.zsh'
+[2.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2-gripperv3_moveit_config)
+[2.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_can2eth', 'pythonpath_develop')
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.ps1'
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_can2eth' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/dummy2_can2eth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2_can2eth/build --no-deps symlink_data
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.dsv'
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/dummy2_can2eth/share/dummy2_can2eth/hook/pythonpath_develop.sh'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_can2eth', 'cmake_prefix_path')
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/cmake_prefix_path.ps1'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/cmake_prefix_path.dsv'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/cmake_prefix_path.sh'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_can2eth', 'ld_library_path_lib')
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ld_library_path_lib.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ld_library_path_lib.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/ld_library_path_lib.sh'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_can2eth.pc'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_can2eth', 'pythonpath')
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/pythonpath.ps1'
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/pythonpath.dsv'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_can2eth/hook/pythonpath.sh'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_can2eth)
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_can2eth/package.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_can2eth/package.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_can2eth/package.sh'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_can2eth/package.bash'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_can2eth/package.zsh'
+[2.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_can2eth)
+[2.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2', 'pythonpath_develop')
+[2.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/easy_handeye2' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/easy_handeye2/build --no-deps symlink_data
+[2.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/easy_handeye2/share/easy_handeye2/hook/pythonpath_develop.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/build/easy_handeye2/share/easy_handeye2/hook/pythonpath_develop.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/build/easy_handeye2/share/easy_handeye2/hook/pythonpath_develop.sh'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2', 'cmake_prefix_path')
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/cmake_prefix_path.ps1'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2/hook/cmake_prefix_path.dsv'
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/cmake_prefix_path.sh'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2', 'ld_library_path_lib')
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ld_library_path_lib.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ld_library_path_lib.dsv'
+[2.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/ld_library_path_lib.sh'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/easy_handeye2.pc'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('easy_handeye2', 'pythonpath')
+[2.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/pythonpath.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/easy_handeye2/hook/pythonpath.dsv'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/easy_handeye2/hook/pythonpath.sh'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(easy_handeye2)
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2/package.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/easy_handeye2/package.dsv'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2/package.sh'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2/package.bash'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/easy_handeye2/package.zsh'
+[2.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/easy_handeye2)
+[2.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/futill/dummy_ros/src/dummy2_hand_eye_calibration' with build type 'ament_cmake'
+[2.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/futill/dummy_ros/src/dummy2_hand_eye_calibration'
+[2.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hand_eye_calibration -- -j16 -l16
+[2.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hand_eye_calibration -- -j16 -l16
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hand_eye_calibration
+[2.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_hand_eye_calibration)
+[2.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/futill/dummy_ros/build/dummy2_hand_eye_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/home/futill/dummy_ros/build/easy_handeye2:/home/futill/dummy_ros/install/lib/python3.10/site-packages:/home/futill/dummy_ros/build/ros2_aruco:/home/futill/dummy_ros/build/rboot_libs:/home/futill/dummy_ros/build/dummy2_can2eth:/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages:/home/futill/dummy_ros/build/dummy2-gripperv3_description:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hand_eye_calibration
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'cmake_prefix_path')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.sh'
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'ld_library_path_lib')
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.ps1'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_hand_eye_calibration.pc'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'pythonpath')
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.dsv'
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.sh'
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.dsv'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.bash'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.zsh'
+[2.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_hand_eye_calibration)
+[2.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy2_hand_eye_calibration)
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake module files
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install' for CMake config files
+[2.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'cmake_prefix_path')
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.ps1'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/cmake_prefix_path.sh'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib'
+[2.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'ld_library_path_lib')
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.ps1'
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.dsv'
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/ld_library_path_lib.sh'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/pkgconfig/dummy2_hand_eye_calibration.pc'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/lib/python3.10/site-packages'
+[2.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy2_hand_eye_calibration', 'pythonpath')
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/hook/pythonpath.sh'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/futill/dummy_ros/install/bin'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.ps1'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.dsv'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.sh'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.bash'
+[2.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/futill/dummy_ros/install/share/dummy2_hand_eye_calibration/package.zsh'
+[2.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/futill/dummy_ros/install/share/colcon-core/packages/dummy2_hand_eye_calibration)
+[2.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.601s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.606s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.606s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.606s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.613s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/futill/dummy_ros/install/local_setup.ps1'
+[2.615s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/futill/dummy_ros/install/_local_setup_util_ps1.py'
+[2.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/futill/dummy_ros/install/setup.ps1'
+[2.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/futill/dummy_ros/install/local_setup.sh'
+[2.617s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/futill/dummy_ros/install/_local_setup_util_sh.py'
+[2.617s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/futill/dummy_ros/install/setup.sh'
+[2.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/futill/dummy_ros/install/local_setup.bash'
+[2.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/futill/dummy_ros/install/setup.bash'
+[2.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/futill/dummy_ros/install/local_setup.zsh'
+[2.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/futill/dummy_ros/install/setup.zsh'

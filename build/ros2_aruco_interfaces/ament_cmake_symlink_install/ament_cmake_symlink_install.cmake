@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/futill/dummy2_hand_eye_calibration_ws/install/${destination}")
+      set(destination "/home/futill/dummy_ros/install/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,119 +310,119 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/" "DESTINATION" "include/ros2_aruco_interfaces/ros2_aruco_interfaces" "PATTERN" "*.hpp")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
-include("/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
-include("/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
-include("/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl" "DESTINATION" "share/ros2_aruco_interfaces/msg")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl" "DESTINATION" "share/ros2_aruco_interfaces/msg")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl" "DESTINATION" "share/ros2_aruco_interfaces/msg")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl" "DESTINATION" "share/ros2_aruco_interfaces/msg")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg" "DESTINATION" "share/ros2_aruco_interfaces/msg")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg" "DESTINATION" "share/ros2_aruco_interfaces/msg")
+# install(FILES "/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg" "DESTINATION" "share/ros2_aruco_interfaces/msg")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg" "DESTINATION" "share/ros2_aruco_interfaces/msg")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_aruco_interfaces")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_aruco_interfaces")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_aruco_interfaces")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_aruco_interfaces")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/ros2_aruco_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig-version.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig-version.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+# install(FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake" "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig-version.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig.cmake" "/home/futill/dummy_ros/build/ros2_aruco_interfaces/ament_cmake_core/ros2_aruco_interfacesConfig-version.cmake" "DESTINATION" "share/ros2_aruco_interfaces/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces/package.xml" "DESTINATION" "share/ros2_aruco_interfaces")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces/package.xml" "DESTINATION" "share/ros2_aruco_interfaces")
+# install(FILES "/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces/package.xml" "DESTINATION" "share/ros2_aruco_interfaces")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces/package.xml" "DESTINATION" "share/ros2_aruco_interfaces")

@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/easy_handeye2/easy_handeye2/setup.py
+/home/futill/dummy_ros/src/easy_handeye2/easy_handeye2/setup.py

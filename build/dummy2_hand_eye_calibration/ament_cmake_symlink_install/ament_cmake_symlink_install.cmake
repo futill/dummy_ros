@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/futill/dummy2_hand_eye_calibration_ws/install/${destination}")
+      set(destination "/home/futill/dummy_ros/install/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "config" "rviz" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" DIRECTORY "launch" "config" "rviz" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" DIRECTORY "launch" "config" "rviz" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
 # install(PROGRAMS "scripts/calibration_aruco_publisher.py" "scripts/follow_aruco_marker.py" "scripts/handeye_publisher.py" "DESTINATION" "lib/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_programs("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" PROGRAMS "scripts/calibration_aruco_publisher.py" "scripts/follow_aruco_marker.py" "scripts/handeye_publisher.py" "DESTINATION" "lib/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_programs("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" PROGRAMS "scripts/calibration_aruco_publisher.py" "scripts/follow_aruco_marker.py" "scripts/handeye_publisher.py" "DESTINATION" "lib/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2_hand_eye_calibration")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/packages/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/packages/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/packages/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_index/share/ament_index/resource_index/packages/dummy2_hand_eye_calibration" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig-version.cmake" "DESTINATION" "share/dummy2_hand_eye_calibration/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig-version.cmake" "DESTINATION" "share/dummy2_hand_eye_calibration/cmake")
+# install(FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig.cmake" "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig-version.cmake" "DESTINATION" "share/dummy2_hand_eye_calibration/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig.cmake" "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_core/dummy2_hand_eye_calibrationConfig-version.cmake" "DESTINATION" "share/dummy2_hand_eye_calibration/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration/package.xml" "DESTINATION" "share/dummy2_hand_eye_calibration")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration/package.xml" "DESTINATION" "share/dummy2_hand_eye_calibration")
+# install(FILES "/home/futill/dummy_ros/src/dummy2_hand_eye_calibration/package.xml" "DESTINATION" "share/dummy2_hand_eye_calibration")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2_hand_eye_calibration" FILES "/home/futill/dummy_ros/src/dummy2_hand_eye_calibration/package.xml" "DESTINATION" "share/dummy2_hand_eye_calibration")

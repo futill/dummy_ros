@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dummy2_interface__py",
+		"source" : "/home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py"
+	}
+}

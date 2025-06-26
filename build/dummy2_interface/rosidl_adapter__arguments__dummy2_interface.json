@@ -1,8 +1,8 @@
 {
   "package_name": "dummy2_interface",
   "non_idl_tuples": [
-    "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface:srv/InitCan2eth.srv",
-    "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface:srv/WriteCan2eth.srv",
-    "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface:srv/ReadCan2eth.srv"
+    "/home/futill/dummy_ros/src/dummy2_interface:srv/InitCan2eth.srv",
+    "/home/futill/dummy_ros/src/dummy2_interface:srv/WriteCan2eth.srv",
+    "/home/futill/dummy_ros/src/dummy2_interface:srv/ReadCan2eth.srv"
   ]
 }

@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash
+/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash

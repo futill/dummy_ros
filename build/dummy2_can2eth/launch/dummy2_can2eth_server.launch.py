@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_can2eth/launch/dummy2_can2eth_server.launch.py
+/home/futill/dummy_ros/src/dummy2_can2eth/launch/dummy2_can2eth_server.launch.py

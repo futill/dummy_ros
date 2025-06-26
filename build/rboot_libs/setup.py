@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/rboot_libs/setup.py
+/home/futill/dummy_ros/src/rboot_libs/setup.py

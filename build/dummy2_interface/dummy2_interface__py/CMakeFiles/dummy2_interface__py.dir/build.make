@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy2_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy2_interface
 
 # Utility rule file for dummy2_interface__py.
 
@@ -93,8 +93,8 @@ rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_f
 rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dummy2_interface/srv/InitCan2eth.idl
 rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dummy2_interface/srv/WriteCan2eth.idl
 rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dummy2_interface/srv/ReadCan2eth.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/futill/dummy_ros/build/dummy2_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/futill/dummy_ros/build/dummy2_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_introspection_c.c
@@ -142,10 +142,10 @@ dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/build: dummy2_interface
 .PHONY : dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/build
 
 dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/clean:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py && $(CMAKE_COMMAND) -P CMakeFiles/dummy2_interface__py.dir/cmake_clean.cmake
+	cd /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py && $(CMAKE_COMMAND) -P CMakeFiles/dummy2_interface__py.dir/cmake_clean.cmake
 .PHONY : dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/clean
 
 dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py /home/futill/dummy_ros/build/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dummy2_interface__py/CMakeFiles/dummy2_interface__py.dir/depend
 

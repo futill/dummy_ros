@@ -1,0 +1,16 @@
+[1.403s] Invoking command in '/home/futill/dummy_ros/build/rboot_libs': PYTHONPATH=/home/futill/dummy_ros/build/rboot_libs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/rboot_libs/build --no-deps symlink_data
+[1.624s] running develop
+[1.773s] running egg_info
+[1.773s] writing rboot_libs.egg-info/PKG-INFO
+[1.773s] writing dependency_links to rboot_libs.egg-info/dependency_links.txt
+[1.773s] writing entry points to rboot_libs.egg-info/entry_points.txt
+[1.774s] writing requirements to rboot_libs.egg-info/requires.txt
+[1.774s] writing top-level names to rboot_libs.egg-info/top_level.txt
+[1.776s] reading manifest file 'rboot_libs.egg-info/SOURCES.txt'
+[1.777s] writing manifest file 'rboot_libs.egg-info/SOURCES.txt'
+[1.779s] running build_ext
+[1.779s] Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/rboot-libs.egg-link (link to .)
+[1.780s] 
+[1.780s] Installed /home/futill/dummy_ros/build/rboot_libs
+[1.780s] running symlink_data
+[1.857s] Invoked command in '/home/futill/dummy_ros/build/rboot_libs' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/rboot_libs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/rboot_libs/build --no-deps symlink_data

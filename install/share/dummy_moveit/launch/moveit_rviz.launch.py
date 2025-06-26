@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit/launch/moveit_rviz.launch.py
+/home/futill/dummy_ros/src/dummy_moveit/launch/moveit_rviz.launch.py

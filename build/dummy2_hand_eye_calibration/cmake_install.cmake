@@ -1,8 +1,8 @@
-# Install script for directory: /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration
+# Install script for directory: /home/futill/dummy_ros/src/dummy2_hand_eye_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/futill/dummy2_hand_eye_calibration_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/futill/dummy_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/futill/dummy_ros/build/dummy2_hand_eye_calibration/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

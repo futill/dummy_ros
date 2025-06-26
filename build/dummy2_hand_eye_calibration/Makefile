@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_hand_eye_calibration
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy2_hand_eye_calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy2_hand_eye_calibration
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/CMakeFiles /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/futill/dummy_ros/build/dummy2_hand_eye_calibration/CMakeFiles /home/futill/dummy_ros/build/dummy2_hand_eye_calibration//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hand_eye_calibration/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/futill/dummy_ros/build/dummy2_hand_eye_calibration/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

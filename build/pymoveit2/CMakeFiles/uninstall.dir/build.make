@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/pymoveit2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/pymoveit2
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2 /home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2 /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2 /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2 /home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/pymoveit2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/pymoveit2 /home/futill/dummy_ros/src/pymoveit2 /home/futill/dummy_ros/build/pymoveit2 /home/futill/dummy_ros/build/pymoveit2 /home/futill/dummy_ros/build/pymoveit2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

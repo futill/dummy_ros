@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake
+/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake

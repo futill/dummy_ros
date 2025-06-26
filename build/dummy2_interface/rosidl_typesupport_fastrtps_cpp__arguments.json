@@ -1,11 +1,11 @@
 {
   "package_name": "dummy2_interface",
-  "output_dir": "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_typesupport_fastrtps_cpp/dummy2_interface",
+  "output_dir": "/home/futill/dummy_ros/build/dummy2_interface/rosidl_typesupport_fastrtps_cpp/dummy2_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/InitCan2eth.idl",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/WriteCan2eth.idl",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/ReadCan2eth.idl"
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/InitCan2eth.idl",
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/WriteCan2eth.idl",
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface:srv/ReadCan2eth.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -16,8 +16,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/InitCan2eth.idl",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/WriteCan2eth.idl",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/ReadCan2eth.idl"
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/InitCan2eth.idl",
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/WriteCan2eth.idl",
+    "/home/futill/dummy_ros/build/dummy2_interface/rosidl_adapter/dummy2_interface/srv/ReadCan2eth.idl"
   ]
 }

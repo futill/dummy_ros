@@ -1,0 +1,272 @@
+[0.008s] Invoking command in '/home/futill/dummy_ros/build/dummy2_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/dummy2_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.473s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.678s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Looking for pthread.h
+[0.793s] -- Looking for pthread.h - found
+[0.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.858s] -- Found Threads: TRUE  
+[0.897s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.108s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.467s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.489s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.489s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.489s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.489s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.506s] -- Found PythonExtra: .so  
+[1.535s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.552s] -- Added test 'lint_cmake' to check CMake code style
+[1.553s] -- Added test 'xmllint' to check XML markup files
+[1.556s] -- Configuring done
+[1.588s] -- Generating done
+[1.597s] -- Build files have been written to: /home/futill/dummy_ros/build/dummy2_interface
+[1.610s] Invoked command in '/home/futill/dummy_ros/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/dummy2_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[1.611s] Invoking command in '/home/futill/dummy_ros/build/dummy2_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_interface -- -j16 -l16
+[1.650s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.659s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.667s] [  4%] Built target ament_cmake_python_symlink_dummy2_interface
+[1.861s] running egg_info
+[1.861s] creating dummy2_interface.egg-info
+[1.861s] writing dummy2_interface.egg-info/PKG-INFO
+[1.862s] writing dependency_links to dummy2_interface.egg-info/dependency_links.txt
+[1.862s] writing top-level names to dummy2_interface.egg-info/top_level.txt
+[1.862s] writing manifest file 'dummy2_interface.egg-info/SOURCES.txt'
+[1.863s] reading manifest file 'dummy2_interface.egg-info/SOURCES.txt'
+[1.864s] writing manifest file 'dummy2_interface.egg-info/SOURCES.txt'
+[1.888s] [  4%] Built target ament_cmake_python_build_dummy2_interface_egg
+[1.991s] [  8%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_c.dir/rosidl_generator_c/dummy2_interface/srv/detail/write_can2eth__functions.c.o[0m
+[1.991s] [  8%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_c.dir/rosidl_generator_c/dummy2_interface/srv/detail/init_can2eth__functions.c.o[0m
+[1.995s] [ 10%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_c.dir/rosidl_generator_c/dummy2_interface/srv/detail/read_can2eth__functions.c.o[0m
+[1.998s] [ 10%] Built target dummy2_interface__cpp
+[2.008s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.008s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.008s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.118s] [ 19%] [32m[1mLinking C shared library libdummy2_interface__rosidl_generator_c.so[0m
+[2.152s] [ 19%] Built target dummy2_interface__rosidl_generator_c
+[2.162s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.162s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.162s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.269s] [ 31%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy2_interface/srv/read_can2eth__type_support.cpp.o[0m
+[2.270s] [ 29%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy2_interface/srv/write_can2eth__type_support.cpp.o[0m
+[2.270s] [ 31%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy2_interface/srv/init_can2eth__type_support.cpp.o[0m
+[2.319s] [ 34%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy2_interface/srv/detail/init_can2eth__type_support.cpp.o[0m
+[2.326s] [ 38%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy2_interface/srv/detail/read_can2eth__type_support.cpp.o[0m
+[2.326s] [ 38%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy2_interface/srv/detail/write_can2eth__type_support.cpp.o[0m
+[2.352s] [ 42%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy2_interface/srv/detail/dds_fastrtps/write_can2eth__type_support.cpp.o[0m
+[2.352s] [ 42%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy2_interface/srv/detail/dds_fastrtps/init_can2eth__type_support.cpp.o[0m
+[2.352s] [ 44%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy2_interface/srv/detail/dds_fastrtps/read_can2eth__type_support.cpp.o[0m
+[2.493s] [ 46%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy2_interface/srv/write_can2eth__type_support.cpp.o[0m
+[2.494s] [ 48%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy2_interface/srv/init_can2eth__type_support.cpp.o[0m
+[2.495s] [ 51%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy2_interface/srv/read_can2eth__type_support.cpp.o[0m
+[2.558s] [ 53%] [32m[1mLinking CXX shared library libdummy2_interface__rosidl_typesupport_c.so[0m
+[2.588s] [ 59%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy2_interface/srv/detail/write_can2eth__type_support.c.o[0m
+[2.588s] [ 59%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy2_interface/srv/detail/init_can2eth__type_support.c.o[0m
+[2.588s] [ 59%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy2_interface/srv/detail/read_can2eth__type_support.c.o[0m
+[2.639s] [ 59%] Built target dummy2_interface__rosidl_typesupport_c
+[2.672s] [ 61%] [32m[1mLinking C shared library libdummy2_interface__rosidl_typesupport_introspection_c.so[0m
+[2.672s] [ 63%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy2_interface/srv/detail/write_can2eth__type_support_c.cpp.o[0m
+[2.673s] [ 65%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy2_interface/srv/detail/init_can2eth__type_support_c.cpp.o[0m
+[2.673s] [ 68%] [32mBuilding CXX object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy2_interface/srv/detail/read_can2eth__type_support_c.cpp.o[0m
+[2.716s] [ 70%] [32m[1mLinking CXX shared library libdummy2_interface__rosidl_typesupport_cpp.so[0m
+[2.726s] [ 70%] Built target dummy2_interface__rosidl_typesupport_introspection_c
+[2.777s] [ 70%] Built target dummy2_interface__rosidl_typesupport_cpp
+[2.877s] [ 72%] [32m[1mLinking CXX shared library libdummy2_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.970s] [ 72%] Built target dummy2_interface__rosidl_typesupport_introspection_cpp
+[2.971s] [ 74%] [32m[1mLinking CXX shared library libdummy2_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.066s] [ 74%] Built target dummy2_interface__rosidl_typesupport_fastrtps_cpp
+[3.086s] [ 76%] [32m[1mLinking CXX shared library libdummy2_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.155s] [ 76%] Built target dummy2_interface__rosidl_typesupport_fastrtps_c
+[3.174s] [ 76%] Built target dummy2_interface
+[3.193s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.674s] [ 78%] Built target dummy2_interface__py
+[3.692s] [ 82%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_py.dir/rosidl_generator_py/dummy2_interface/srv/_init_can2eth_s.c.o[0m
+[3.692s] [ 82%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_py.dir/rosidl_generator_py/dummy2_interface/srv/_write_can2eth_s.c.o[0m
+[3.692s] [ 85%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_generator_py.dir/rosidl_generator_py/dummy2_interface/srv/_read_can2eth_s.c.o[0m
+[3.839s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/dummy2_interface/libdummy2_interface__rosidl_generator_py.so[0m
+[3.875s] [ 87%] Built target dummy2_interface__rosidl_generator_py
+[3.893s] [ 91%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.893s] [ 91%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.893s] [ 93%] [32mBuilding C object CMakeFiles/dummy2_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.029s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dummy2_interface/dummy2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.029s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dummy2_interface/dummy2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.029s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dummy2_interface/dummy2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.059s] [100%] Built target dummy2_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.059s] [100%] Built target dummy2_interface__rosidl_typesupport_c__pyext
+[4.059s] [100%] Built target dummy2_interface__rosidl_typesupport_introspection_c__pyext
+[4.071s] Invoked command in '/home/futill/dummy_ros/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_interface -- -j16 -l16
+[4.080s] Invoking command in '/home/futill/dummy_ros/build/dummy2_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_interface
+[4.086s] -- Install configuration: "Release"
+[4.087s] -- Execute custom install script
+[4.087s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/rosidl_interfaces/dummy2_interface
+[4.096s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/msg/rosidl_generator_c__visibility_control.h
+[4.104s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__functions.h
+[4.112s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__struct.h
+[4.119s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__type_support.h
+[4.127s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__functions.h
+[4.135s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__struct.h
+[4.143s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__type_support.h
+[4.151s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__functions.h
+[4.158s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__struct.h
+[4.166s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__type_support.h
+[4.174s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/init_can2eth.h
+[4.182s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/read_can2eth.h
+[4.190s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/write_can2eth.h
+[4.198s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/library_path.sh
+[4.206s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/library_path.dsv
+[4.214s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.222s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_fastrtps_c.h
+[4.229s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_fastrtps_c.h
+[4.237s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_fastrtps_c.h
+[4.245s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.252s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__builder.hpp
+[4.260s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__struct.hpp
+[4.268s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__traits.hpp
+[4.276s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__type_support.hpp
+[4.284s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__builder.hpp
+[4.292s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__struct.hpp
+[4.300s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__traits.hpp
+[4.309s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__type_support.hpp
+[4.317s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__builder.hpp
+[4.325s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__struct.hpp
+[4.333s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__traits.hpp
+[4.341s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__type_support.hpp
+[4.348s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/init_can2eth.hpp
+[4.356s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/read_can2eth.hpp
+[4.364s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/write_can2eth.hpp
+[4.372s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.380s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[4.388s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[4.395s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_fastrtps_cpp.hpp
+[4.404s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.412s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_introspection_c.h
+[4.420s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_introspection_c.h
+[4.427s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_introspection_c.h
+[4.436s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/init_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[4.443s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/read_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[4.451s] -- Symlinking: /home/futill/dummy_ros/install/include/dummy2_interface/dummy2_interface/srv/detail/write_can2eth__rosidl_typesupport_introspection_cpp.hpp
+[4.458s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/pythonpath.sh
+[4.465s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/pythonpath.dsv
+[4.474s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.481s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.488s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.496s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.504s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/__init__.py
+[4.512s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_c.c
+[4.519s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.527s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/_dummy2_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.535s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.542s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.550s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.558s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/libdummy2_interface__rosidl_generator_py.so
+[4.565s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/__init__.py
+[4.573s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_init_can2eth.py
+[4.581s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_init_can2eth_s.c
+[4.588s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_read_can2eth.py
+[4.596s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_read_can2eth_s.c
+[4.604s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_write_can2eth.py
+[4.611s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_write_can2eth_s.c
+[4.619s] -- Up-to-date symlink: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.619s] -- Up-to-date symlink: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.619s] -- Up-to-date symlink: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/dummy2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.620s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/InitCan2eth.idl
+[4.628s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/WriteCan2eth.idl
+[4.636s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/ReadCan2eth.idl
+[4.644s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/InitCan2eth.srv
+[4.652s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/InitCan2eth_Request.msg
+[4.660s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/InitCan2eth_Response.msg
+[4.668s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/WriteCan2eth.srv
+[4.676s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/WriteCan2eth_Request.msg
+[4.687s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/WriteCan2eth_Response.msg
+[4.695s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/ReadCan2eth.srv
+[4.703s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/ReadCan2eth_Request.msg
+[4.712s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/srv/ReadCan2eth_Response.msg
+[4.720s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/dummy2_interface
+[4.727s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/dummy2_interface
+[4.735s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/ament_prefix_path.sh
+[4.743s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/ament_prefix_path.dsv
+[4.751s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/path.sh
+[4.761s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/environment/path.dsv
+[4.770s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/local_setup.bash
+[4.781s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/local_setup.sh
+[4.790s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/local_setup.zsh
+[4.800s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/local_setup.dsv
+[4.810s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/package.dsv
+[4.819s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/dummy2_interface
+[4.828s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/rosidl_cmake-extras.cmake
+[4.838s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.846s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.856s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.865s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.874s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.882s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.891s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interfaceConfig.cmake
+[4.900s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interfaceConfig-version.cmake
+[4.909s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_interface/package.xml
+[4.917s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_generator_c.so
+[4.918s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_generator_c.so" to ""
+[4.918s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_c.so
+[4.918s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.918s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.918s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.918s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_introspection_c.so
+[4.919s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.919s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_c.so
+[4.919s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_c.so" to ""
+[4.919s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_introspection_cpp.so
+[4.920s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.920s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_cpp.so
+[4.920s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_typesupport_cpp.so" to ""
+[4.951s] Listing '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface'...
+[4.951s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/__init__.py'...
+[4.951s] Listing '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv'...
+[4.952s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/__init__.py'...
+[4.952s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_init_can2eth.py'...
+[4.952s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_read_can2eth.py'...
+[4.952s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/dummy2_interface/srv/_write_can2eth.py'...
+[4.956s] -- Installing: /home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_generator_py.so
+[4.957s] -- Set runtime path of "/home/futill/dummy_ros/install/lib/libdummy2_interface__rosidl_generator_py.so" to ""
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cExport.cmake
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cExport-release.cmake
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_cppExport.cmake
+[4.957s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.958s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.958s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.958s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[4.958s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cExport.cmake
+[4.958s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cExport-release.cmake
+[4.959s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.959s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.959s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cppExport.cmake
+[4.959s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/dummy2_interface__rosidl_typesupport_cppExport-release.cmake
+[4.959s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_pyExport.cmake
+[4.960s] -- Installing: /home/futill/dummy_ros/install/share/dummy2_interface/cmake/export_dummy2_interface__rosidl_generator_pyExport-release.cmake
+[4.962s] Invoked command in '/home/futill/dummy_ros/build/dummy2_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_interface

@@ -1,1 +1,0 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_camera_msgs/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy2_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy2_interface
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/dummy2_interface /home/futill/dummy_ros/src/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

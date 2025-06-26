@@ -1,0 +1,40 @@
+[0.465s] Invoking command in '/home/futill/dummy_ros/build/dummy_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy_moveit -- -j16 -l16
+[0.702s] Invoked command in '/home/futill/dummy_ros/build/dummy_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy_moveit -- -j16 -l16
+[0.703s] Invoking command in '/home/futill/dummy_ros/build/dummy_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy_moveit
+[0.723s] -- Install configuration: "Release"
+[0.723s] -- Execute custom install script
+[0.723s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/dummy_moveit
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/dummy_moveit
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/environment/ament_prefix_path.sh
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/environment/ament_prefix_path.dsv
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/environment/path.sh
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/environment/path.dsv
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/local_setup.bash
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/local_setup.sh
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/local_setup.zsh
+[0.724s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/local_setup.dsv
+[0.725s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy_moveit/package.dsv
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/dummy_moveit
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/cmake/dummy_moveitConfig.cmake
+[0.738s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/cmake/dummy_moveitConfig-version.cmake
+[0.739s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/package.xml
+[0.739s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/demo.launch.py
+[0.739s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/move_group.launch.py
+[0.740s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/moveit_rviz.launch.py
+[0.747s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/rsp.launch.py
+[0.747s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/setup_assistant.launch.py
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/spawn_controllers.launch.py
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/launch/warehouse_db.launch.py
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/dummy2-SLDASM.ros2_control.xacro
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/dummy2-SLDASM.srdf
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/dummy2-SLDASM.urdf.xacro
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/initial_positions.yaml
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/joint_limits.yaml
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/kinematics.yaml
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/moveit.rviz
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/moveit_controllers.yaml
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/pilz_cartesian_limits.yaml
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/config/ros2_controllers.yaml
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy_moveit/.setup_assistant
+[0.755s] Invoked command in '/home/futill/dummy_ros/build/dummy_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy_moveit

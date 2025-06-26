@@ -1,0 +1,25 @@
+[0.460s] Invoking command in '/home/futill/dummy_ros/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hw -- -j16 -l16
+[0.514s] [100%] Built target dummy2_hardware
+[0.707s] Invoked command in '/home/futill/dummy_ros/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2_hw -- -j16 -l16
+[0.708s] Invoking command in '/home/futill/dummy_ros/build/dummy2_hw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hw
+[0.736s] -- Install configuration: "Release"
+[0.736s] -- Execute custom install script
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw//dummy2_hardware.xml
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/lib/libdummy2_hardware.so
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/dummy2_hw
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/dummy2_hw
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/environment/path.sh
+[0.737s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/environment/path.dsv
+[0.738s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/local_setup.bash
+[0.738s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/local_setup.sh
+[0.738s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/local_setup.zsh
+[0.738s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/local_setup.dsv
+[0.738s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2_hw/package.dsv
+[0.747s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/dummy2_hw
+[0.747s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dummy2_hw
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/cmake/dummy2_hwConfig.cmake
+[0.748s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/cmake/dummy2_hwConfig-version.cmake
+[0.749s] -- Up-to-date symlink: /home/futill/dummy_ros/install/share/dummy2_hw/package.xml
+[0.765s] Invoked command in '/home/futill/dummy_ros/build/dummy2_hw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2_hw

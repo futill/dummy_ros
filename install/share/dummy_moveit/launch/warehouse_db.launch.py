@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit/launch/warehouse_db.launch.py
+/home/futill/dummy_ros/src/dummy_moveit/launch/warehouse_db.launch.py

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating dummy2_can2eth.egg-info
+writing dummy2_can2eth.egg-info/PKG-INFO
+writing dependency_links to dummy2_can2eth.egg-info/dependency_links.txt
+writing entry points to dummy2_can2eth.egg-info/entry_points.txt
+writing requirements to dummy2_can2eth.egg-info/requires.txt
+writing top-level names to dummy2_can2eth.egg-info/top_level.txt
+writing manifest file 'dummy2_can2eth.egg-info/SOURCES.txt'
+reading manifest file 'dummy2_can2eth.egg-info/SOURCES.txt'
+writing manifest file 'dummy2_can2eth.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/dummy2-can2eth.egg-link (link to .)
+Installing arm_joy script to /home/futill/dummy_ros/install/lib/dummy2_can2eth
+Installing dummy2_can2eth_server script to /home/futill/dummy_ros/install/lib/dummy2_can2eth
+
+Installed /home/futill/dummy_ros/build/dummy2_can2eth
+running symlink_data
+symbolically linking /home/futill/dummy_ros/build/dummy2_can2eth/resource/dummy2_can2eth -> /home/futill/dummy_ros/install/share/ament_index/resource_index/packages
+symbolically linking /home/futill/dummy_ros/build/dummy2_can2eth/package.xml -> /home/futill/dummy_ros/install/share/dummy2_can2eth
+creating /home/futill/dummy_ros/install/share/dummy2_can2eth/launch
+symbolically linking /home/futill/dummy_ros/build/dummy2_can2eth/launch/dummy2_can2eth_server.launch.py -> /home/futill/dummy_ros/install/share/dummy2_can2eth/launch

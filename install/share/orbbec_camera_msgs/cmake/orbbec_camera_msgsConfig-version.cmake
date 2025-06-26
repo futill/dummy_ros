@@ -1,1 +1,0 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_camera_msgs/ament_cmake_core/orbbec_camera_msgsConfig-version.cmake

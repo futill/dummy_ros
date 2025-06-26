@@ -1,0 +1,60 @@
+[0.017s] Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.613s] -- Configuring done
+[0.617s] -- Generating done
+[0.619s] -- Build files have been written to: /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config
+[0.625s] Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[0.627s] Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config -- -j16 -l16
+[0.675s] Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config -- -j16 -l16
+[0.677s] Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config
+[0.684s] -- Install configuration: "Release"
+[0.685s] -- Execute custom install script
+[0.685s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/dummy2-gripperv3_moveit_config
+[0.696s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/dummy2-gripperv3_moveit_config
+[0.707s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/environment/ament_prefix_path.sh
+[0.718s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/environment/ament_prefix_path.dsv
+[0.729s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/environment/path.sh
+[0.739s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/environment/path.dsv
+[0.754s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/local_setup.bash
+[0.765s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/local_setup.sh
+[0.778s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/local_setup.zsh
+[0.788s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/local_setup.dsv
+[0.798s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.dsv
+[0.810s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/dummy2-gripperv3_moveit_config
+[0.822s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/cmake/dummy2-gripperv3_moveit_configConfig.cmake
+[0.837s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/cmake/dummy2-gripperv3_moveit_configConfig-version.cmake
+[0.852s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/package.xml
+[0.862s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/demo.launch.py
+[0.874s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/move_group.launch.py
+[0.891s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/moveit_rviz.launch.py
+[0.906s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/rsp.launch.py
+[0.924s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/setup_assistant.launch.py
+[0.938s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/spawn_controllers.launch.py
+[0.953s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.968s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/launch/warehouse_db.launch.py
+[0.982s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/dummy2-gripperv3.ros2_control.xacro
+[0.997s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/dummy2-gripperv3.srdf
+[1.011s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/dummy2-gripperv3.urdf.xacro
+[1.024s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/initial_positions.yaml
+[1.037s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/joint_limits.yaml
+[1.051s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/kinematics.yaml
+[1.065s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/moveit.rviz
+[1.080s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/moveit_controllers.yaml
+[1.100s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/pilz_cartesian_limits.yaml
+[1.116s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/config/ros2_controllers.yaml
+[1.130s] -- Symlinking: /home/futill/dummy_ros/install/share/dummy2-gripperv3_moveit_config/.setup_assistant
+[1.148s] Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/futill/dummy_ros/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/futill/dummy_ros/install:/opt/ros/humble LD_LIBRARY_PATH=/home/futill/dummy_ros/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config

@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_description/launch/display.launch.py
+/home/futill/dummy_ros/src/dummy2-gripperv3_description/launch/display.launch.py

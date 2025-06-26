@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy2_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy2_interface
 
 # Utility rule file for ament_cmake_python_symlink_dummy2_interface.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_dummy2_interface:
-	/usr/bin/cmake -E create_symlink /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/rosidl_generator_py/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/ament_cmake_python/dummy2_interface/dummy2_interface
+	/usr/bin/cmake -E create_symlink /home/futill/dummy_ros/build/dummy2_interface/rosidl_generator_py/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface/ament_cmake_python/dummy2_interface/dummy2_interface
 
 ament_cmake_python_symlink_dummy2_interface: CMakeFiles/ament_cmake_python_symlink_dummy2_interface
 ament_cmake_python_symlink_dummy2_interface: CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/src/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/dummy2_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/dummy2_interface /home/futill/dummy_ros/src/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface /home/futill/dummy_ros/build/dummy2_interface/CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_dummy2_interface.dir/depend
 

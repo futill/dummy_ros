@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/futill/dummy2_hand_eye_calibration_ws/build/orbbec_camera/orbbec_camera_node" "TARGETS" "orbbec_camera_node" "DESTINATION" "lib/orbbec_camera")

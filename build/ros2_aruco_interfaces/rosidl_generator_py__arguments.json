@@ -1,9 +1,9 @@
 {
   "package_name": "ros2_aruco_interfaces",
-  "output_dir": "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces",
+  "output_dir": "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:msg/ArucoMarkers.idl"
+    "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:msg/ArucoMarkers.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -16,6 +16,8 @@
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Point32.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Polygon.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Pose.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl",
@@ -83,7 +85,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl",
+    "/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -94,6 +96,8 @@
     "/opt/ros/humble/share/geometry_msgs/msg/Point32.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Polygon.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Pose.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl",

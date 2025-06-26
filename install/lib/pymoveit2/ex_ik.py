@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/pymoveit2/examples/ex_ik.py
+/home/futill/dummy_ros/src/pymoveit2/examples/ex_ik.py

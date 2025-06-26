@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/futill/dummy2_hand_eye_calibration_ws/install/${destination}")
+      set(destination "/home/futill/dummy_ros/install/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,53 +310,53 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy_moveit/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy_moveit/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy_moveit/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy_moveit/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy_moveit/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy_moveit/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy_moveit/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy_moveit/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy_moveit/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy_moveit/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy_moveit/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy_moveit/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy_moveit/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy_moveit/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy_moveit")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy_moveit")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy_moveit")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy_moveit")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy_moveit")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/packages/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/packages/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/packages/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_index/share/ament_index/resource_index/packages/dummy_moveit" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake" "DESTINATION" "share/dummy_moveit/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake" "DESTINATION" "share/dummy_moveit/cmake")
+# install(FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig.cmake" "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake" "DESTINATION" "share/dummy_moveit/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig.cmake" "/home/futill/dummy_ros/build/dummy_moveit/ament_cmake_core/dummy_moveitConfig-version.cmake" "DESTINATION" "share/dummy_moveit/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit/package.xml" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit/package.xml" "DESTINATION" "share/dummy_moveit")
+# install(FILES "/home/futill/dummy_ros/src/dummy_moveit/package.xml" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES "/home/futill/dummy_ros/src/dummy_moveit/package.xml" "DESTINATION" "share/dummy_moveit")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/dummy_moveit" "PATTERN_EXCLUDE" "setup_assistant.launch")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" DIRECTORY "launch" "DESTINATION" "share/dummy_moveit" "PATTERN_EXCLUDE" "setup_assistant.launch")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/dummy_moveit" DIRECTORY "launch" "DESTINATION" "share/dummy_moveit" "PATTERN_EXCLUDE" "setup_assistant.launch")
 
 # install(DIRECTORY "config" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" DIRECTORY "config" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/dummy_moveit" DIRECTORY "config" "DESTINATION" "share/dummy_moveit")
 
 # install(FILES ".setup_assistant" "DESTINATION" "share/dummy_moveit")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit" FILES ".setup_assistant" "DESTINATION" "share/dummy_moveit")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy_moveit" FILES ".setup_assistant" "DESTINATION" "share/dummy_moveit")

@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco/launch/aruco_recognition.launch.py
+/home/futill/dummy_ros/src/ros2_aruco/ros2_aruco/launch/aruco_recognition.launch.py

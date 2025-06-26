@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/dummy_moveit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/dummy_moveit
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit /home/futill/dummy2_hand_eye_calibration_ws/src/dummy_moveit /home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit /home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit /home/futill/dummy2_hand_eye_calibration_ws/build/dummy_moveit/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/dummy_moveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/dummy_moveit /home/futill/dummy_ros/src/dummy_moveit /home/futill/dummy_ros/build/dummy_moveit /home/futill/dummy_ros/build/dummy_moveit /home/futill/dummy_ros/build/dummy_moveit/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

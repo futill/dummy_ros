@@ -1,0 +1,26 @@
+[1.145s] Invoking command in '/home/futill/dummy_ros/build/ros2_aruco': PYTHONPATH=/home/futill/dummy_ros/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/ros2_aruco/build --no-deps symlink_data
+[1.395s] running develop
+[1.558s] running egg_info
+[1.558s] creating ros2_aruco.egg-info
+[1.558s] writing ros2_aruco.egg-info/PKG-INFO
+[1.558s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[1.558s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[1.558s] writing requirements to ros2_aruco.egg-info/requires.txt
+[1.558s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[1.559s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.561s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.563s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[1.563s] running build_ext
+[1.564s] Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[1.565s] Installing aruco_generate_marker script to /home/futill/dummy_ros/install/lib/ros2_aruco
+[1.565s] Installing aruco_node script to /home/futill/dummy_ros/install/lib/ros2_aruco
+[1.565s] 
+[1.565s] Installed /home/futill/dummy_ros/build/ros2_aruco
+[1.565s] running symlink_data
+[1.566s] symbolically linking /home/futill/dummy_ros/build/ros2_aruco/resource/ros2_aruco -> /home/futill/dummy_ros/install/share/ament_index/resource_index/packages
+[1.566s] symbolically linking /home/futill/dummy_ros/build/ros2_aruco/package.xml -> /home/futill/dummy_ros/install/share/ros2_aruco
+[1.566s] creating /home/futill/dummy_ros/install/share/ros2_aruco/launch
+[1.566s] symbolically linking /home/futill/dummy_ros/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/futill/dummy_ros/install/share/ros2_aruco/launch
+[1.567s] creating /home/futill/dummy_ros/install/share/ros2_aruco/config
+[1.567s] symbolically linking /home/futill/dummy_ros/build/ros2_aruco/config/aruco_parameters.yaml -> /home/futill/dummy_ros/install/share/ros2_aruco/config
+[1.622s] Invoked command in '/home/futill/dummy_ros/build/ros2_aruco' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/ros2_aruco/build --no-deps symlink_data

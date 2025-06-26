@@ -1,0 +1,96 @@
+[0.236s] Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/pymoveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[0.720s] -- The C compiler identification is GNU 11.4.0
+[0.720s] -- The CXX compiler identification is GNU 11.4.0
+[0.720s] -- Detecting C compiler ABI info
+[0.720s] -- Detecting C compiler ABI info - done
+[0.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.721s] -- Detecting C compile features
+[0.721s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.722s] -- Detecting CXX compile features
+[0.722s] -- Detecting CXX compile features - done
+[0.722s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.722s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.867s] -- Configuring done
+[0.870s] -- Generating done
+[0.872s] -- Build files have been written to: /home/futill/dummy_ros/build/pymoveit2
+[0.889s] Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/pymoveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+[0.890s] Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+[0.969s] Built target ament_cmake_python_symlink_pymoveit2
+[1.215s] running egg_info
+[1.216s] creating pymoveit2.egg-info
+[1.216s] writing pymoveit2.egg-info/PKG-INFO
+[1.216s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[1.216s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[1.217s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.219s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.220s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.259s] Built target ament_cmake_python_build_pymoveit2_egg
+[1.274s] Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+[1.276s] Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2
+[1.286s] -- Install configuration: "Release"
+[1.287s] -- Execute custom install script
+[1.287s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/pythonpath.sh
+[1.297s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/pythonpath.dsv
+[1.305s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO
+[1.315s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt
+[1.323s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt
+[1.333s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt
+[1.343s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[1.353s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py
+[1.362s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py
+[1.371s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[1.381s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py
+[1.391s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[1.400s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[1.410s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py
+[1.419s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[1.430s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py
+[1.441s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py
+[1.450s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py
+[1.461s] -- Symlinking: /home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py
+[1.473s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_allow_collisions.py
+[1.483s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_clear_planning_scene.py
+[1.492s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_collision_mesh.py
+[1.503s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_collision_primitive.py
+[1.514s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_fk.py
+[1.523s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_gripper.py
+[1.531s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_ik.py
+[1.541s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_joint_goal.py
+[1.551s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_orientation_path_constraint.py
+[1.561s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_pose_goal.py
+[1.572s] -- Symlinking: /home/futill/dummy_ros/install/lib/pymoveit2/ex_servo.py
+[1.583s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[1.594s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[1.604s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/ament_prefix_path.sh
+[1.613s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/ament_prefix_path.dsv
+[1.624s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/path.sh
+[1.632s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/environment/path.dsv
+[1.641s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/local_setup.bash
+[1.650s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/local_setup.sh
+[1.659s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/local_setup.zsh
+[1.669s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/local_setup.dsv
+[1.677s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/package.dsv
+[1.687s] -- Symlinking: /home/futill/dummy_ros/install/share/ament_index/resource_index/packages/pymoveit2
+[1.695s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/cmake/pymoveit2Config.cmake
+[1.705s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[1.714s] -- Symlinking: /home/futill/dummy_ros/install/share/pymoveit2/package.xml
+[1.764s] Listing '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py'...
+[1.765s] Listing '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[1.765s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py'...
+[1.766s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py'...
+[1.766s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py'...
+[1.766s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py'...
+[1.766s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py'...
+[1.766s] Compiling '/home/futill/dummy_ros/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py'...
+[1.772s] Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2

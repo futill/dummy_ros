@@ -1,0 +1,6 @@
+Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/pymoveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/futill/dummy_ros/src/pymoveit2 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/futill/dummy_ros/install
+Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/futill/dummy_ros/build/pymoveit2 -- -j16 -l16
+Invoking command in '/home/futill/dummy_ros/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2
+Invoked command in '/home/futill/dummy_ros/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/futill/dummy_ros/build/pymoveit2

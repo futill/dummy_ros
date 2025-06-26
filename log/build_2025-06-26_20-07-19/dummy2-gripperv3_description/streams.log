@@ -1,0 +1,18 @@
+[1.370s] Invoking command in '/home/futill/dummy_ros/build/dummy2-gripperv3_description': PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2-gripperv3_description/build --no-deps symlink_data
+[1.573s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.573s]   warnings.warn(
+[1.600s] running develop
+[1.753s] running egg_info
+[1.754s] writing dummy2_gripperv3_description.egg-info/PKG-INFO
+[1.754s] writing dependency_links to dummy2_gripperv3_description.egg-info/dependency_links.txt
+[1.754s] writing entry points to dummy2_gripperv3_description.egg-info/entry_points.txt
+[1.754s] writing requirements to dummy2_gripperv3_description.egg-info/requires.txt
+[1.754s] writing top-level names to dummy2_gripperv3_description.egg-info/top_level.txt
+[1.756s] reading manifest file 'dummy2_gripperv3_description.egg-info/SOURCES.txt'
+[1.757s] writing manifest file 'dummy2_gripperv3_description.egg-info/SOURCES.txt'
+[1.758s] running build_ext
+[1.758s] Creating /home/futill/dummy_ros/install/lib/python3.10/site-packages/dummy2-gripperv3-description.egg-link (link to .)
+[1.759s] 
+[1.759s] Installed /home/futill/dummy_ros/build/dummy2-gripperv3_description
+[1.759s] running symlink_data
+[1.821s] Invoked command in '/home/futill/dummy_ros/build/dummy2-gripperv3_description' returned '0': PYTHONPATH=/home/futill/dummy_ros/build/dummy2-gripperv3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/futill/dummy_ros/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/futill/dummy_ros/build/dummy2-gripperv3_description/build --no-deps symlink_data

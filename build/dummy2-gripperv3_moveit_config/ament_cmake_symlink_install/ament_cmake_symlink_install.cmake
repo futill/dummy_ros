@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/futill/dummy2_hand_eye_calibration_ws/install/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/futill/dummy_ros/install/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/futill/dummy2_hand_eye_calibration_ws/install/${destination}")
+      set(destination "/home/futill/dummy_ros/install/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,53 +310,53 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config/environment")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/dummy2-gripperv3_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig-version.cmake" "DESTINATION" "share/dummy2-gripperv3_moveit_config/cmake")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig.cmake" "/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig-version.cmake" "DESTINATION" "share/dummy2-gripperv3_moveit_config/cmake")
+# install(FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig.cmake" "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig-version.cmake" "DESTINATION" "share/dummy2-gripperv3_moveit_config/cmake")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig.cmake" "/home/futill/dummy_ros/build/dummy2-gripperv3_moveit_config/ament_cmake_core/dummy2-gripperv3_moveit_configConfig-version.cmake" "DESTINATION" "share/dummy2-gripperv3_moveit_config/cmake")
 
-# install(FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config/package.xml" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config/package.xml" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+# install(FILES "/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config/package.xml" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES "/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config/package.xml" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/dummy2-gripperv3_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" DIRECTORY "launch" "DESTINATION" "share/dummy2-gripperv3_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" DIRECTORY "launch" "DESTINATION" "share/dummy2-gripperv3_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
 
 # install(DIRECTORY "config" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_directory("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" DIRECTORY "config" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_directory("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" DIRECTORY "config" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
 
 # install(FILES ".setup_assistant" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
-ament_cmake_symlink_install_files("/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/dummy2-gripperv3_moveit_config")
+ament_cmake_symlink_install_files("/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/dummy2-gripperv3_moveit_config")

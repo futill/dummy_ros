@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/__init__.py
+/home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/__init__.py

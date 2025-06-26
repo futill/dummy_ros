@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_hw/ament_cmake_core/dummy2_hwConfig.cmake
+/home/futill/dummy_ros/build/dummy2_hw/ament_cmake_core/dummy2_hwConfig.cmake

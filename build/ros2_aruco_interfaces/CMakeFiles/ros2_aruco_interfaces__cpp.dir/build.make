@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces
+CMAKE_SOURCE_DIR = /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces
+CMAKE_BINARY_DIR = /home/futill/dummy_ros/build/ros2_aruco_interfaces
 
 # Utility rule file for ros2_aruco_interfaces__cpp.
 
@@ -99,6 +99,8 @@ rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humbl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl
+rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
@@ -151,8 +153,8 @@ rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humbl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/futill/dummy_ros/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/futill/dummy_ros/build/ros2_aruco_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp: rosidl_generator_cpp/ros2_aruco_interfaces/msg/aruco_markers.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
@@ -184,6 +186,6 @@ CMakeFiles/ros2_aruco_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/ros2_aruco_interfaces__cpp.dir/clean
 
 CMakeFiles/ros2_aruco_interfaces__cpp.dir/depend:
-	cd /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces /home/futill/dummy2_hand_eye_calibration_ws/build/ros2_aruco_interfaces/CMakeFiles/ros2_aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/futill/dummy_ros/build/ros2_aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy_ros/src/ros2_aruco/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces /home/futill/dummy_ros/build/ros2_aruco_interfaces/CMakeFiles/ros2_aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_aruco_interfaces__cpp.dir/depend
 

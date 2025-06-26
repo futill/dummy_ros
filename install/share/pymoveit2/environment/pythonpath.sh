@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh
+/home/futill/dummy_ros/build/pymoveit2/ament_cmake_environment_hooks/pythonpath.sh

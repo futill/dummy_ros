@@ -1,1 +1,1 @@
-/home/futill/dummy2_hand_eye_calibration_ws/src/dummy2-gripperv3_moveit_config/launch/spawn_controllers.launch.py
+/home/futill/dummy_ros/src/dummy2-gripperv3_moveit_config/launch/spawn_controllers.launch.py

@@ -1,8 +1,8 @@
-# Install script for directory: /home/futill/dummy2_hand_eye_calibration_ws/build/dummy2_interface/dummy2_interface__py
+# Install script for directory: /home/futill/dummy_ros/build/dummy2_interface/dummy2_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/futill/dummy2_hand_eye_calibration_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/futill/dummy_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
